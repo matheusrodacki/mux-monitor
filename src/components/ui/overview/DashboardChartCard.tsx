@@ -55,7 +55,7 @@ export function ChartCard({
     selectedDates?.from && selectedDates?.to
       ? eachDayOfInterval(interval(selectedDates.from, selectedDates.to))
       : null
-  const prevDates = getPeriod(selectedDates, selectedPeriod)
+  const prevDates = getPeriod(selectedDates)
 
   const prevDatesInterval =
     prevDates?.from && prevDates?.to

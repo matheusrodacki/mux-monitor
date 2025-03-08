@@ -1205,5 +1205,7 @@ DateRangePicker.displayName = "DateRangePicker"
 export {
   DatePicker,
   DateRangePicker,
-  type DatePreset, type DateRange, type DateRangePreset
+  type DatePreset,
+  type DateRange,
+  type DateRangePreset,
 }

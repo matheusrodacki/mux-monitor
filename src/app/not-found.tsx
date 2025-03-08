@@ -1,7 +1,7 @@
 import { Button } from "@/components/Button"
-import { ArrowAnimated } from "@/components/ui/icons/ArrowAnimated"
+import { DatabaseLogo } from "@/components/DatabaseLogo"
+import { RiArrowRightLine } from "@remixicon/react"
 import Link from "next/link"
-import { DatabaseLogo } from "../../public/DatabaseLogo"
 import { siteConfig } from "./siteConfig"
 
 export default function NotFound() {
@@ -22,8 +22,8 @@ export default function NotFound() {
       <Button asChild className="group mt-8" variant="light">
         <Link href={siteConfig.baseLinks.home}>
           Go to the home page
-          <ArrowAnimated
-            className="stroke-gray-900 dark:stroke-gray-50"
+          <RiArrowRightLine
+            className="ml-1.5 size-5 text-gray-900 dark:text-gray-50"
             aria-hidden="true"
           />
         </Link>

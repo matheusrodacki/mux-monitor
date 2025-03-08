@@ -9,8 +9,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 71,
     "Sign ups": 60,
     Logins: 1664,
-    "Sign outs": 1133,
-    "Support calls": 5,
   },
   {
     date: "2023-01-02T00:00:00",
@@ -20,8 +18,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 88,
     "Sign ups": 79,
     Logins: 1642,
-    "Sign outs": 1104,
-    "Support calls": 5,
   },
   {
     date: "2023-01-03T00:00:00",
@@ -31,8 +27,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 100,
     "Sign ups": 75,
     Logins: 1525,
-    "Sign outs": 1083,
-    "Support calls": 6,
   },
   {
     date: "2023-01-04T00:00:00",
@@ -42,8 +36,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 122,
     "Sign ups": 61,
     Logins: 1211,
-    "Sign outs": 1017,
-    "Support calls": 7,
   },
   {
     date: "2023-01-05T00:00:00",
@@ -53,8 +45,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 107,
     "Sign ups": 64,
     Logins: 991,
-    "Sign outs": 1070,
-    "Support calls": 5,
   },
   {
     date: "2023-01-06T00:00:00",
@@ -64,8 +54,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 124,
     "Sign ups": 64,
     Logins: 855,
-    "Sign outs": 1115,
-    "Support calls": 3,
   },
   {
     date: "2023-01-07T00:00:00",
@@ -75,8 +63,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 105,
     "Sign ups": 55,
     Logins: 875,
-    "Sign outs": 1184,
-    "Support calls": 3,
   },
   {
     date: "2023-01-08T00:00:00",
@@ -86,8 +72,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 68,
     "Sign ups": 47,
     Logins: 867,
-    "Sign outs": 1191,
-    "Support calls": 3,
   },
   {
     date: "2023-01-09T00:00:00",
@@ -97,8 +81,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 87,
     "Sign ups": 66,
     Logins: 853,
-    "Sign outs": 1156,
-    "Support calls": 3,
   },
   {
     date: "2023-01-10T00:00:00",
@@ -108,8 +90,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 90,
     "Sign ups": 76,
     Logins: 976,
-    "Sign outs": 1169,
-    "Support calls": 2,
   },
   {
     date: "2023-01-11T00:00:00",
@@ -119,8 +99,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 89,
     "Sign ups": 72,
     Logins: 1191,
-    "Sign outs": 1170,
-    "Support calls": 2,
   },
   {
     date: "2023-01-12T00:00:00",
@@ -130,8 +108,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 91,
     "Sign ups": 76,
     Logins: 1235,
-    "Sign outs": 1129,
-    "Support calls": 3,
   },
   {
     date: "2023-01-13T00:00:00",
@@ -141,8 +117,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 123,
     "Sign ups": 64,
     Logins: 1060,
-    "Sign outs": 1196,
-    "Support calls": 5,
   },
   {
     date: "2023-01-14T00:00:00",
@@ -152,8 +126,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 87,
     "Sign ups": 61,
     Logins: 915,
-    "Sign outs": 1174,
-    "Support calls": 6,
   },
   {
     date: "2023-01-15T00:00:00",
@@ -163,8 +135,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 103,
     "Sign ups": 46,
     Logins: 1026,
-    "Sign outs": 1155,
-    "Support calls": 6,
   },
   {
     date: "2023-01-16T00:00:00",
@@ -174,8 +144,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 118,
     "Sign ups": 62,
     Logins: 1199,
-    "Sign outs": 1060,
-    "Support calls": 7,
   },
   {
     date: "2023-01-17T00:00:00",
@@ -185,8 +153,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 96,
     "Sign ups": 61,
     Logins: 1344,
-    "Sign outs": 1076,
-    "Support calls": 7,
   },
   {
     date: "2023-01-18T00:00:00",
@@ -196,8 +162,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 124,
     "Sign ups": 64,
     Logins: 1203,
-    "Sign outs": 1100,
-    "Support calls": 7,
   },
   {
     date: "2023-01-19T00:00:00",
@@ -207,8 +171,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 112,
     "Sign ups": 67,
     Logins: 1351,
-    "Sign outs": 1046,
-    "Support calls": 5,
   },
   {
     date: "2023-01-20T00:00:00",
@@ -218,8 +180,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 121,
     "Sign ups": 80,
     Logins: 1379,
-    "Sign outs": 945,
-    "Support calls": 3,
   },
   {
     date: "2023-01-21T00:00:00",
@@ -229,8 +189,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 88,
     "Sign ups": 60,
     Logins: 1460,
-    "Sign outs": 912,
-    "Support calls": 2,
   },
   {
     date: "2023-01-22T00:00:00",
@@ -240,8 +198,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 77,
     "Sign ups": 70,
     Logins: 1704,
-    "Sign outs": 904,
-    "Support calls": 2,
   },
   {
     date: "2023-01-23T00:00:00",
@@ -251,8 +207,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 62,
     Logins: 1951,
-    "Sign outs": 916,
-    "Support calls": 2,
   },
   {
     date: "2023-01-24T00:00:00",
@@ -262,8 +216,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 80,
     "Sign ups": 61,
     Logins: 1768,
-    "Sign outs": 914,
-    "Support calls": 2,
   },
   {
     date: "2023-01-25T00:00:00",
@@ -273,8 +225,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 100,
     "Sign ups": 66,
     Logins: 1811,
-    "Sign outs": 924,
-    "Support calls": 2,
   },
   {
     date: "2023-01-26T00:00:00",
@@ -284,8 +234,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 68,
     Logins: 2048,
-    "Sign outs": 914,
-    "Support calls": 2,
   },
   {
     date: "2023-01-27T00:00:00",
@@ -295,8 +243,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 87,
     "Sign ups": 60,
     Logins: 1853,
-    "Sign outs": 958,
-    "Support calls": 2,
   },
   {
     date: "2023-01-28T00:00:00",
@@ -306,8 +252,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 77,
     "Sign ups": 63,
     Logins: 1693,
-    "Sign outs": 1000,
-    "Support calls": 2,
   },
   {
     date: "2023-01-29T00:00:00",
@@ -317,8 +261,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 74,
     "Sign ups": 54,
     Logins: 1637,
-    "Sign outs": 1048,
-    "Support calls": 2,
   },
   {
     date: "2023-01-30T00:00:00",
@@ -328,8 +270,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 89,
     "Sign ups": 79,
     Logins: 1847,
-    "Sign outs": 1077,
-    "Support calls": 3,
   },
   {
     date: "2023-01-31T00:00:00",
@@ -339,8 +279,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 94,
     "Sign ups": 67,
     Logins: 1972,
-    "Sign outs": 1036,
-    "Support calls": 4,
   },
   {
     date: "2023-02-01T00:00:00",
@@ -350,8 +288,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 60,
     Logins: 1818,
-    "Sign outs": 938,
-    "Support calls": 3,
   },
   {
     date: "2023-02-02T00:00:00",
@@ -361,8 +297,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 86,
     "Sign ups": 60,
     Logins: 1437,
-    "Sign outs": 937,
-    "Support calls": 3,
   },
   {
     date: "2023-02-03T00:00:00",
@@ -372,8 +306,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 65,
     Logins: 1420,
-    "Sign outs": 1025,
-    "Support calls": 4,
   },
   {
     date: "2023-02-04T00:00:00",
@@ -383,8 +315,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 66,
     "Sign ups": 56,
     Logins: 1622,
-    "Sign outs": 1124,
-    "Support calls": 3,
   },
   {
     date: "2023-02-05T00:00:00",
@@ -394,8 +324,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 69,
     "Sign ups": 52,
     Logins: 1847,
-    "Sign outs": 1150,
-    "Support calls": 3,
   },
   {
     date: "2023-02-06T00:00:00",
@@ -405,8 +333,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 89,
     "Sign ups": 61,
     Logins: 2020,
-    "Sign outs": 1199,
-    "Support calls": 4,
   },
   {
     date: "2023-02-07T00:00:00",
@@ -416,8 +342,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 80,
     "Sign ups": 65,
     Logins: 2035,
-    "Sign outs": 1198,
-    "Support calls": 5,
   },
   {
     date: "2023-02-08T00:00:00",
@@ -427,8 +351,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 61,
     Logins: 2044,
-    "Sign outs": 1180,
-    "Support calls": 5,
   },
   {
     date: "2023-02-09T00:00:00",
@@ -438,8 +360,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 90,
     "Sign ups": 61,
     Logins: 1899,
-    "Sign outs": 1198,
-    "Support calls": 4,
   },
   {
     date: "2023-02-10T00:00:00",
@@ -449,8 +369,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 87,
     "Sign ups": 62,
     Logins: 1478,
-    "Sign outs": 1196,
-    "Support calls": 4,
   },
   {
     date: "2023-02-11T00:00:00",
@@ -460,8 +378,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 71,
     "Sign ups": 63,
     Logins: 1158,
-    "Sign outs": 1194,
-    "Support calls": 5,
   },
   {
     date: "2023-02-12T00:00:00",
@@ -471,8 +387,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 68,
     "Sign ups": 60,
     Logins: 850,
-    "Sign outs": 1197,
-    "Support calls": 4,
   },
   {
     date: "2023-02-13T00:00:00",
@@ -482,8 +396,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 70,
     Logins: 871,
-    "Sign outs": 1109,
-    "Support calls": 5,
   },
   {
     date: "2023-02-14T00:00:00",
@@ -493,8 +405,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 106,
     "Sign ups": 63,
     Logins: 849,
-    "Sign outs": 958,
-    "Support calls": 6,
   },
   {
     date: "2023-02-15T00:00:00",
@@ -504,8 +414,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 86,
     "Sign ups": 79,
     Logins: 874,
-    "Sign outs": 910,
-    "Support calls": 7,
   },
   {
     date: "2023-02-16T00:00:00",
@@ -515,8 +423,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 76,
     Logins: 862,
-    "Sign outs": 928,
-    "Support calls": 10,
   },
   {
     date: "2023-02-17T00:00:00",
@@ -526,8 +432,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 62,
     Logins: 864,
-    "Sign outs": 904,
-    "Support calls": 13,
   },
   {
     date: "2023-02-18T00:00:00",
@@ -537,8 +441,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 66,
     "Sign ups": 52,
     Logins: 918,
-    "Sign outs": 952,
-    "Support calls": 16,
   },
   {
     date: "2023-02-19T00:00:00",
@@ -548,8 +450,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 69,
     "Sign ups": 60,
     Logins: 968,
-    "Sign outs": 911,
-    "Support calls": 15,
   },
   {
     date: "2023-02-20T00:00:00",
@@ -559,8 +459,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 80,
     "Sign ups": 73,
     Logins: 1142,
-    "Sign outs": 906,
-    "Support calls": 16,
   },
   {
     date: "2023-02-21T00:00:00",
@@ -570,8 +468,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 93,
     "Sign ups": 61,
     Logins: 1360,
-    "Sign outs": 911,
-    "Support calls": 16,
   },
   {
     date: "2023-02-22T00:00:00",
@@ -581,8 +477,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 72,
     Logins: 1691,
-    "Sign outs": 901,
-    "Support calls": 18,
   },
   {
     date: "2023-02-23T00:00:00",
@@ -592,8 +486,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 105,
     "Sign ups": 62,
     Logins: 1862,
-    "Sign outs": 916,
-    "Support calls": 10,
   },
   {
     date: "2023-02-24T00:00:00",
@@ -603,8 +495,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 117,
     "Sign ups": 66,
     Logins: 2003,
-    "Sign outs": 906,
-    "Support calls": 8,
   },
   {
     date: "2023-02-25T00:00:00",
@@ -614,8 +504,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 94,
     "Sign ups": 67,
     Logins: 2006,
-    "Sign outs": 914,
-    "Support calls": 7,
   },
   {
     date: "2023-02-26T00:00:00",
@@ -625,8 +513,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 105,
     "Sign ups": 62,
     Logins: 2007,
-    "Sign outs": 956,
-    "Support calls": 4,
   },
   {
     date: "2023-02-27T00:00:00",
@@ -636,8 +522,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 115,
     "Sign ups": 62,
     Logins: 1742,
-    "Sign outs": 903,
-    "Support calls": 4,
   },
   {
     date: "2023-02-28T00:00:00",
@@ -647,8 +531,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 66,
     Logins: 1910,
-    "Sign outs": 920,
-    "Support calls": 3,
   },
   {
     date: "2023-03-01T00:00:00",
@@ -658,8 +540,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 63,
     Logins: 1766,
-    "Sign outs": 916,
-    "Support calls": 3,
   },
   {
     date: "2023-03-02T00:00:00",
@@ -669,8 +549,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 65,
     Logins: 1674,
-    "Sign outs": 924,
-    "Support calls": 2,
   },
   {
     date: "2023-03-03T00:00:00",
@@ -680,8 +558,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 102,
     "Sign ups": 66,
     Logins: 1785,
-    "Sign outs": 912,
-    "Support calls": 2,
   },
   {
     date: "2023-03-04T00:00:00",
@@ -691,8 +567,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 78,
     "Sign ups": 52,
     Logins: 1732,
-    "Sign outs": 903,
-    "Support calls": 2,
   },
   {
     date: "2023-03-05T00:00:00",
@@ -702,8 +576,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 64,
     "Sign ups": 47,
     Logins: 1813,
-    "Sign outs": 912,
-    "Support calls": 2,
   },
   {
     date: "2023-03-06T00:00:00",
@@ -713,8 +585,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 80,
     "Sign ups": 67,
     Logins: 1938,
-    "Sign outs": 932,
-    "Support calls": 2,
   },
   {
     date: "2023-03-07T00:00:00",
@@ -724,8 +594,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 118,
     "Sign ups": 75,
     Logins: 1798,
-    "Sign outs": 904,
-    "Support calls": 2,
   },
   {
     date: "2023-03-08T00:00:00",
@@ -735,8 +603,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 123,
     "Sign ups": 75,
     Logins: 1866,
-    "Sign outs": 901,
-    "Support calls": 3,
   },
   {
     date: "2023-03-09T00:00:00",
@@ -746,8 +612,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 118,
     "Sign ups": 61,
     Logins: 1640,
-    "Sign outs": 910,
-    "Support calls": 5,
   },
   {
     date: "2023-03-10T00:00:00",
@@ -757,8 +621,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 124,
     "Sign ups": 65,
     Logins: 1274,
-    "Sign outs": 903,
-    "Support calls": 4,
   },
   {
     date: "2023-03-11T00:00:00",
@@ -768,8 +630,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 97,
     "Sign ups": 52,
     Logins: 895,
-    "Sign outs": 913,
-    "Support calls": 4,
   },
   {
     date: "2023-03-12T00:00:00",
@@ -779,8 +639,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 71,
     "Sign ups": 50,
     Logins: 861,
-    "Sign outs": 906,
-    "Support calls": 3,
   },
   {
     date: "2023-03-13T00:00:00",
@@ -790,8 +648,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 94,
     "Sign ups": 67,
     Logins: 853,
-    "Sign outs": 914,
-    "Support calls": 4,
   },
   {
     date: "2023-03-14T00:00:00",
@@ -801,8 +657,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 92,
     "Sign ups": 77,
     Logins: 860,
-    "Sign outs": 902,
-    "Support calls": 6,
   },
   {
     date: "2023-03-15T00:00:00",
@@ -812,8 +666,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 94,
     "Sign ups": 80,
     Logins: 922,
-    "Sign outs": 971,
-    "Support calls": 7,
   },
   {
     date: "2023-03-16T00:00:00",
@@ -823,8 +675,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 122,
     "Sign ups": 76,
     Logins: 1127,
-    "Sign outs": 1019,
-    "Support calls": 5,
   },
   {
     date: "2023-03-17T00:00:00",
@@ -834,8 +684,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 114,
     "Sign ups": 61,
     Logins: 1055,
-    "Sign outs": 953,
-    "Support calls": 2,
   },
   {
     date: "2023-03-18T00:00:00",
@@ -845,8 +693,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 95,
     "Sign ups": 60,
     Logins: 1158,
-    "Sign outs": 988,
-    "Support calls": 2,
   },
   {
     date: "2023-03-19T00:00:00",
@@ -856,8 +702,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 71,
     "Sign ups": 58,
     Logins: 1438,
-    "Sign outs": 954,
-    "Support calls": 2,
   },
   {
     date: "2023-03-20T00:00:00",
@@ -867,8 +711,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 87,
     "Sign ups": 70,
     Logins: 1332,
-    "Sign outs": 906,
-    "Support calls": 3,
   },
   {
     date: "2023-03-21T00:00:00",
@@ -878,8 +720,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 120,
     "Sign ups": 75,
     Logins: 1102,
-    "Sign outs": 918,
-    "Support calls": 5,
   },
   {
     date: "2023-03-22T00:00:00",
@@ -889,8 +729,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 110,
     "Sign ups": 75,
     Logins: 951,
-    "Sign outs": 922,
-    "Support calls": 8,
   },
   {
     date: "2023-03-23T00:00:00",
@@ -900,8 +738,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 103,
     "Sign ups": 75,
     Logins: 846,
-    "Sign outs": 921,
-    "Support calls": 12,
   },
   {
     date: "2023-03-24T00:00:00",
@@ -911,8 +747,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 118,
     "Sign ups": 71,
     Logins: 850,
-    "Sign outs": 926,
-    "Support calls": 14,
   },
   {
     date: "2023-03-25T00:00:00",
@@ -922,8 +756,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 97,
     "Sign ups": 67,
     Logins: 878,
-    "Sign outs": 923,
-    "Support calls": 14,
   },
   {
     date: "2023-03-26T00:00:00",
@@ -933,8 +765,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 98,
     "Sign ups": 67,
     Logins: 851,
-    "Sign outs": 924,
-    "Support calls": 10,
   },
   {
     date: "2023-03-26T00:00:00",
@@ -944,8 +774,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 118,
     "Sign ups": 73,
     Logins: 872,
-    "Sign outs": 1009,
-    "Support calls": 13,
   },
   {
     date: "2023-03-27T00:00:00",
@@ -955,8 +783,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 123,
     "Sign ups": 62,
     Logins: 863,
-    "Sign outs": 958,
-    "Support calls": 15,
   },
   {
     date: "2023-03-28T00:00:00",
@@ -966,8 +792,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 118,
     "Sign ups": 80,
     Logins: 901,
-    "Sign outs": 927,
-    "Support calls": 12,
   },
   {
     date: "2023-03-29T00:00:00",
@@ -977,8 +801,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 120,
     "Sign ups": 74,
     Logins: 845,
-    "Sign outs": 967,
-    "Support calls": 11,
   },
   {
     date: "2023-03-30T00:00:00",
@@ -988,8 +810,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 120,
     "Sign ups": 61,
     Logins: 869,
-    "Sign outs": 1080,
-    "Support calls": 6,
   },
   {
     date: "2023-03-31T00:00:00",
@@ -999,8 +819,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 70,
     "Sign ups": 53,
     Logins: 865,
-    "Sign outs": 1057,
-    "Support calls": 5,
   },
   {
     date: "2023-04-01T00:00:00",
@@ -1010,8 +828,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 61,
     "Sign ups": 60,
     Logins: 860,
-    "Sign outs": 987,
-    "Support calls": 7,
   },
   {
     date: "2023-04-02T00:00:00",
@@ -1021,8 +837,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 66,
     Logins: 867,
-    "Sign outs": 905,
-    "Support calls": 12,
   },
   {
     date: "2023-04-03T00:00:00",
@@ -1032,8 +846,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 60,
     Logins: 867,
-    "Sign outs": 934,
-    "Support calls": 13,
   },
   {
     date: "2023-04-04T00:00:00",
@@ -1043,8 +855,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 66,
     Logins: 963,
-    "Sign outs": 1002,
-    "Support calls": 14,
   },
   {
     date: "2023-04-05T00:00:00",
@@ -1054,8 +864,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 105,
     "Sign ups": 64,
     Logins: 1027,
-    "Sign outs": 1046,
-    "Support calls": 15,
   },
   {
     date: "2023-04-06T00:00:00",
@@ -1065,8 +873,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 121,
     "Sign ups": 64,
     Logins: 1171,
-    "Sign outs": 1101,
-    "Support calls": 10,
   },
   {
     date: "2023-04-07T00:00:00",
@@ -1076,8 +882,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 95,
     "Sign ups": 54,
     Logins: 1199,
-    "Sign outs": 1193,
-    "Support calls": 9,
   },
   {
     date: "2023-04-08T00:00:00",
@@ -1087,8 +891,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 75,
     "Sign ups": 52,
     Logins: 1208,
-    "Sign outs": 1168,
-    "Support calls": 5,
   },
   {
     date: "2023-04-09T00:00:00",
@@ -1098,8 +900,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 107,
     "Sign ups": 64,
     Logins: 1452,
-    "Sign outs": 1189,
-    "Support calls": 6,
   },
   {
     date: "2023-04-10T00:00:00",
@@ -1109,8 +909,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 121,
     "Sign ups": 63,
     Logins: 1464,
-    "Sign outs": 1195,
-    "Support calls": 6,
   },
   {
     date: "2023-04-11T00:00:00",
@@ -1120,8 +918,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 100,
     "Sign ups": 60,
     Logins: 1512,
-    "Sign outs": 1199,
-    "Support calls": 5,
   },
   {
     date: "2023-04-12T00:00:00",
@@ -1131,8 +927,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 120,
     "Sign ups": 61,
     Logins: 1360,
-    "Sign outs": 1193,
-    "Support calls": 3,
   },
   {
     date: "2023-04-13T00:00:00",
@@ -1142,8 +936,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 122,
     "Sign ups": 69,
     Logins: 1038,
-    "Sign outs": 1184,
-    "Support calls": 3,
   },
   {
     date: "2023-04-14T00:00:00",
@@ -1153,8 +945,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 61,
     Logins: 844,
-    "Sign outs": 1163,
-    "Support calls": 3,
   },
   {
     date: "2023-04-15T00:00:00",
@@ -1164,8 +954,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 70,
     "Sign ups": 62,
     Logins: 855,
-    "Sign outs": 1044,
-    "Support calls": 2,
   },
   {
     date: "2023-04-16T00:00:00",
@@ -1175,8 +963,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 63,
     Logins: 973,
-    "Sign outs": 1000,
-    "Support calls": 2,
   },
   {
     date: "2023-04-17T00:00:00",
@@ -1186,8 +972,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 90,
     "Sign ups": 61,
     Logins: 1065,
-    "Sign outs": 908,
-    "Support calls": 2,
   },
   {
     date: "2023-04-18T00:00:00",
@@ -1197,8 +981,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 122,
     "Sign ups": 64,
     Logins: 1071,
-    "Sign outs": 922,
-    "Support calls": 2,
   },
   {
     date: "2023-04-19T00:00:00",
@@ -1208,8 +990,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 123,
     "Sign ups": 73,
     Logins: 1065,
-    "Sign outs": 907,
-    "Support calls": 3,
   },
   {
     date: "2023-04-20T00:00:00",
@@ -1219,8 +999,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 125,
     "Sign ups": 63,
     Logins: 1191,
-    "Sign outs": 906,
-    "Support calls": 3,
   },
   {
     date: "2023-04-21T00:00:00",
@@ -1230,8 +1008,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 92,
     "Sign ups": 51,
     Logins: 1415,
-    "Sign outs": 925,
-    "Support calls": 2,
   },
   {
     date: "2023-04-22T00:00:00",
@@ -1241,8 +1017,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 57,
     Logins: 1744,
-    "Sign outs": 905,
-    "Support calls": 2,
   },
   {
     date: "2023-04-23T00:00:00",
@@ -1252,8 +1026,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 91,
     "Sign ups": 62,
     Logins: 2017,
-    "Sign outs": 908,
-    "Support calls": 3,
   },
   {
     date: "2023-04-24T00:00:00",
@@ -1263,8 +1035,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 124,
     "Sign ups": 79,
     Logins: 1911,
-    "Sign outs": 913,
-    "Support calls": 4,
   },
   {
     date: "2023-04-25T00:00:00",
@@ -1274,8 +1044,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 113,
     "Sign ups": 70,
     Logins: 2014,
-    "Sign outs": 939,
-    "Support calls": 4,
   },
   {
     date: "2023-04-26T00:00:00",
@@ -1285,8 +1053,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 115,
     "Sign ups": 63,
     Logins: 2004,
-    "Sign outs": 963,
-    "Support calls": 3,
   },
   {
     date: "2023-04-27T00:00:00",
@@ -1296,8 +1062,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 113,
     "Sign ups": 63,
     Logins: 2029,
-    "Sign outs": 903,
-    "Support calls": 3,
   },
   {
     date: "2023-04-28T00:00:00",
@@ -1307,8 +1071,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 88,
     "Sign ups": 50,
     Logins: 2012,
-    "Sign outs": 916,
-    "Support calls": 3,
   },
   {
     date: "2023-04-29T00:00:00",
@@ -1318,8 +1080,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 94,
     "Sign ups": 48,
     Logins: 1745,
-    "Sign outs": 983,
-    "Support calls": 2,
   },
   {
     date: "2023-04-30T00:00:00",
@@ -1329,8 +1089,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 64,
     Logins: 1784,
-    "Sign outs": 1063,
-    "Support calls": 2,
   },
   {
     date: "2023-05-01T00:00:00",
@@ -1340,8 +1098,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 62,
     Logins: 1883,
-    "Sign outs": 1199,
-    "Support calls": 2,
   },
   {
     date: "2023-05-02T00:00:00",
@@ -1351,8 +1107,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 62,
     Logins: 1806,
-    "Sign outs": 1188,
-    "Support calls": 2,
   },
   {
     date: "2023-05-03T00:00:00",
@@ -1362,8 +1116,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 106,
     "Sign ups": 61,
     Logins: 1967,
-    "Sign outs": 1175,
-    "Support calls": 3,
   },
   {
     date: "2023-05-04T00:00:00",
@@ -1373,8 +1125,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 122,
     "Sign ups": 62,
     Logins: 1956,
-    "Sign outs": 1186,
-    "Support calls": 4,
   },
   {
     date: "2023-05-05T00:00:00",
@@ -1384,8 +1134,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 90,
     "Sign ups": 53,
     Logins: 2032,
-    "Sign outs": 1179,
-    "Support calls": 3,
   },
   {
     date: "2023-05-06T00:00:00",
@@ -1395,8 +1143,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 99,
     "Sign ups": 47,
     Logins: 1984,
-    "Sign outs": 1189,
-    "Support calls": 2,
   },
   {
     date: "2023-05-07T00:00:00",
@@ -1406,8 +1152,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 115,
     "Sign ups": 68,
     Logins: 2021,
-    "Sign outs": 1195,
-    "Support calls": 2,
   },
   {
     date: "2023-05-08T00:00:00",
@@ -1417,8 +1161,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 121,
     "Sign ups": 80,
     Logins: 1641,
-    "Sign outs": 1197,
-    "Support calls": 2,
   },
   {
     date: "2023-05-09T00:00:00",
@@ -1428,8 +1170,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 75,
     Logins: 1286,
-    "Sign outs": 1184,
-    "Support calls": 2,
   },
   {
     date: "2023-05-10T00:00:00",
@@ -1439,8 +1179,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 87,
     "Sign ups": 79,
     Logins: 987,
-    "Sign outs": 1195,
-    "Support calls": 2,
   },
   {
     date: "2023-05-11T00:00:00",
@@ -1450,8 +1188,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 87,
     "Sign ups": 79,
     Logins: 953,
-    "Sign outs": 1198,
-    "Support calls": 2,
   },
   {
     date: "2023-05-12T00:00:00",
@@ -1461,8 +1197,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 105,
     "Sign ups": 55,
     Logins: 1059,
-    "Sign outs": 1180,
-    "Support calls": 2,
   },
   {
     date: "2023-05-13T00:00:00",
@@ -1472,8 +1206,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 94,
     "Sign ups": 52,
     Logins: 1153,
-    "Sign outs": 1191,
-    "Support calls": 2,
   },
   {
     date: "2023-05-14T00:00:00",
@@ -1483,8 +1215,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 122,
     "Sign ups": 61,
     Logins: 1033,
-    "Sign outs": 1168,
-    "Support calls": 2,
   },
   {
     date: "2023-05-15T00:00:00",
@@ -1494,8 +1224,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 99,
     "Sign ups": 65,
     Logins: 846,
-    "Sign outs": 1179,
-    "Support calls": 2,
   },
   {
     date: "2023-05-16T00:00:00",
@@ -1505,8 +1233,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 125,
     "Sign ups": 65,
     Logins: 891,
-    "Sign outs": 1132,
-    "Support calls": 2,
   },
   {
     date: "2023-05-17T00:00:00",
@@ -1516,8 +1242,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 113,
     "Sign ups": 63,
     Logins: 923,
-    "Sign outs": 1003,
-    "Support calls": 2,
   },
   {
     date: "2023-05-18T00:00:00",
@@ -1527,8 +1251,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 61,
     Logins: 1115,
-    "Sign outs": 974,
-    "Support calls": 2,
   },
   {
     date: "2023-05-19T00:00:00",
@@ -1538,8 +1260,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 78,
     "Sign ups": 52,
     Logins: 1374,
-    "Sign outs": 1000,
-    "Support calls": 2,
   },
   {
     date: "2023-05-20T00:00:00",
@@ -1549,8 +1269,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 54,
     Logins: 1622,
-    "Sign outs": 1067,
-    "Support calls": 2,
   },
   {
     date: "2023-05-21T00:00:00",
@@ -1560,8 +1278,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 74,
     Logins: 1612,
-    "Sign outs": 1182,
-    "Support calls": 3,
   },
   {
     date: "2023-05-22T00:00:00",
@@ -1571,8 +1287,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 87,
     "Sign ups": 74,
     Logins: 1668,
-    "Sign outs": 1173,
-    "Support calls": 3,
   },
   {
     date: "2023-05-23T00:00:00",
@@ -1582,8 +1296,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 103,
     "Sign ups": 67,
     Logins: 1579,
-    "Sign outs": 1175,
-    "Support calls": 4,
   },
   {
     date: "2023-05-24T00:00:00",
@@ -1593,8 +1305,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 96,
     "Sign ups": 72,
     Logins: 1294,
-    "Sign outs": 1188,
-    "Support calls": 6,
   },
   {
     date: "2023-05-25T00:00:00",
@@ -1604,8 +1314,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 79,
     Logins: 1214,
-    "Sign outs": 1172,
-    "Support calls": 6,
   },
   {
     date: "2023-05-26T00:00:00",
@@ -1615,8 +1323,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 66,
     "Sign ups": 62,
     Logins: 1054,
-    "Sign outs": 1199,
-    "Support calls": 4,
   },
   {
     date: "2023-05-27T00:00:00",
@@ -1626,8 +1332,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 68,
     "Sign ups": 63,
     Logins: 1034,
-    "Sign outs": 1178,
-    "Support calls": 2,
   },
   {
     date: "2023-05-28T00:00:00",
@@ -1637,8 +1341,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 92,
     "Sign ups": 61,
     Logins: 845,
-    "Sign outs": 1180,
-    "Support calls": 2,
   },
   {
     date: "2023-05-29T00:00:00",
@@ -1648,8 +1350,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 93,
     "Sign ups": 80,
     Logins: 881,
-    "Sign outs": 1179,
-    "Support calls": 2,
   },
   {
     date: "2023-05-30T00:00:00",
@@ -1659,8 +1359,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 71,
     Logins: 925,
-    "Sign outs": 1194,
-    "Support calls": 2,
   },
   {
     date: "2023-05-31T00:00:00",
@@ -1670,8 +1368,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 80,
     "Sign ups": 70,
     Logins: 879,
-    "Sign outs": 1195,
-    "Support calls": 2,
   },
   {
     date: "2023-06-01T00:00:00",
@@ -1681,8 +1377,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 95,
     "Sign ups": 77,
     Logins: 924,
-    "Sign outs": 1120,
-    "Support calls": 2,
   },
   {
     date: "2023-06-02T00:00:00",
@@ -1692,8 +1386,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 74,
     "Sign ups": 54,
     Logins: 853,
-    "Sign outs": 1146,
-    "Support calls": 2,
   },
   {
     date: "2023-06-03T00:00:00",
@@ -1703,8 +1395,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 74,
     "Sign ups": 48,
     Logins: 877,
-    "Sign outs": 1153,
-    "Support calls": 2,
   },
   {
     date: "2023-06-04T00:00:00",
@@ -1714,8 +1404,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 102,
     "Sign ups": 66,
     Logins: 896,
-    "Sign outs": 1199,
-    "Support calls": 2,
   },
   {
     date: "2023-06-05T00:00:00",
@@ -1725,8 +1413,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 101,
     "Sign ups": 76,
     Logins: 1053,
-    "Sign outs": 1118,
-    "Support calls": 2,
   },
   {
     date: "2023-06-06T00:00:00",
@@ -1736,8 +1422,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 74,
     Logins: 1009,
-    "Sign outs": 1029,
-    "Support calls": 3,
   },
   {
     date: "2023-06-07T00:00:00",
@@ -1747,8 +1431,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 72,
     Logins: 884,
-    "Sign outs": 997,
-    "Support calls": 4,
   },
   {
     date: "2023-06-08T00:00:00",
@@ -1758,8 +1440,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 80,
     "Sign ups": 78,
     Logins: 1003,
-    "Sign outs": 1069,
-    "Support calls": 5,
   },
   {
     date: "2023-06-09T00:00:00",
@@ -1769,8 +1449,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 68,
     "Sign ups": 54,
     Logins: 1182,
-    "Sign outs": 1169,
-    "Support calls": 4,
   },
   {
     date: "2023-06-10T00:00:00",
@@ -1780,8 +1458,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 65,
     "Sign ups": 63,
     Logins: 1129,
-    "Sign outs": 1161,
-    "Support calls": 4,
   },
   {
     date: "2023-06-11T00:00:00",
@@ -1791,8 +1467,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 61,
     Logins: 1009,
-    "Sign outs": 1199,
-    "Support calls": 4,
   },
   {
     date: "2023-06-12T00:00:00",
@@ -1802,8 +1476,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 98,
     "Sign ups": 64,
     Logins: 924,
-    "Sign outs": 1194,
-    "Support calls": 3,
   },
   {
     date: "2023-06-13T00:00:00",
@@ -1813,8 +1485,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 106,
     "Sign ups": 67,
     Logins: 870,
-    "Sign outs": 1176,
-    "Support calls": 4,
   },
   {
     date: "2023-06-14T00:00:00",
@@ -1824,8 +1494,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 122,
     "Sign ups": 60,
     Logins: 877,
-    "Sign outs": 1167,
-    "Support calls": 3,
   },
   {
     date: "2023-06-15T00:00:00",
@@ -1835,8 +1503,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 97,
     "Sign ups": 66,
     Logins: 853,
-    "Sign outs": 1185,
-    "Support calls": 4,
   },
   {
     date: "2023-06-16T00:00:00",
@@ -1846,8 +1512,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 71,
     "Sign ups": 55,
     Logins: 965,
-    "Sign outs": 1184,
-    "Support calls": 4,
   },
   {
     date: "2023-06-17T00:00:00",
@@ -1857,8 +1521,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 65,
     "Sign ups": 55,
     Logins: 1101,
-    "Sign outs": 1197,
-    "Support calls": 2,
   },
   {
     date: "2023-06-18T00:00:00",
@@ -1868,8 +1530,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 64,
     Logins: 1335,
-    "Sign outs": 1106,
-    "Support calls": 2,
   },
   {
     date: "2023-06-19T00:00:00",
@@ -1879,8 +1539,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 118,
     "Sign ups": 73,
     Logins: 1406,
-    "Sign outs": 1129,
-    "Support calls": 2,
   },
   {
     date: "2023-06-20T00:00:00",
@@ -1890,8 +1548,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 116,
     "Sign ups": 76,
     Logins: 1378,
-    "Sign outs": 1082,
-    "Support calls": 2,
   },
   {
     date: "2023-06-21T00:00:00",
@@ -1901,8 +1557,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 77,
     Logins: 1294,
-    "Sign outs": 1073,
-    "Support calls": 2,
   },
   {
     date: "2023-06-22T00:00:00",
@@ -1912,8 +1566,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 61,
     Logins: 1318,
-    "Sign outs": 1042,
-    "Support calls": 2,
   },
   {
     date: "2023-06-23T00:00:00",
@@ -1923,8 +1575,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 66,
     "Sign ups": 57,
     Logins: 1076,
-    "Sign outs": 1115,
-    "Support calls": 2,
   },
   {
     date: "2023-06-24T00:00:00",
@@ -1934,8 +1584,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 63,
     "Sign ups": 59,
     Logins: 852,
-    "Sign outs": 1174,
-    "Support calls": 2,
   },
   {
     date: "2023-06-25T00:00:00",
@@ -1945,8 +1593,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 64,
     Logins: 881,
-    "Sign outs": 1173,
-    "Support calls": 2,
   },
   {
     date: "2023-06-26T00:00:00",
@@ -1956,8 +1602,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 95,
     "Sign ups": 78,
     Logins: 914,
-    "Sign outs": 1105,
-    "Support calls": 2,
   },
   {
     date: "2023-06-27T00:00:00",
@@ -1967,8 +1611,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 74,
     Logins: 855,
-    "Sign outs": 1139,
-    "Support calls": 2,
   },
   {
     date: "2023-06-28T00:00:00",
@@ -1978,8 +1620,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 69,
     Logins: 876,
-    "Sign outs": 1073,
-    "Support calls": 2,
   },
   {
     date: "2023-06-29T00:00:00",
@@ -1989,8 +1629,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 76,
     Logins: 900,
-    "Sign outs": 1090,
-    "Support calls": 3,
   },
   {
     date: "2023-06-30T00:00:00",
@@ -2000,8 +1638,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 88,
     "Sign ups": 66,
     Logins: 852,
-    "Sign outs": 1118,
-    "Support calls": 3,
   },
   {
     date: "2023-07-01T00:00:00",
@@ -2011,8 +1647,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 103,
     "Sign ups": 52,
     Logins: 856,
-    "Sign outs": 1153,
-    "Support calls": 4,
   },
   {
     date: "2023-07-02T00:00:00",
@@ -2022,8 +1656,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 120,
     "Sign ups": 64,
     Logins: 878,
-    "Sign outs": 1087,
-    "Support calls": 3,
   },
   {
     date: "2023-07-03T00:00:00",
@@ -2033,8 +1665,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 122,
     "Sign ups": 63,
     Logins: 936,
-    "Sign outs": 1138,
-    "Support calls": 2,
   },
   {
     date: "2023-07-04T00:00:00",
@@ -2044,8 +1674,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 78,
     Logins: 1006,
-    "Sign outs": 1100,
-    "Support calls": 2,
   },
   {
     date: "2023-07-05T00:00:00",
@@ -2055,8 +1683,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 80,
     Logins: 1049,
-    "Sign outs": 1090,
-    "Support calls": 2,
   },
   {
     date: "2023-07-06T00:00:00",
@@ -2066,8 +1692,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 86,
     "Sign ups": 62,
     Logins: 1092,
-    "Sign outs": 1161,
-    "Support calls": 2,
   },
   {
     date: "2023-07-07T00:00:00",
@@ -2077,8 +1701,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 72,
     "Sign ups": 56,
     Logins: 1210,
-    "Sign outs": 1179,
-    "Support calls": 2,
   },
   {
     date: "2023-07-08T00:00:00",
@@ -2088,8 +1710,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 69,
     "Sign ups": 54,
     Logins: 1292,
-    "Sign outs": 1155,
-    "Support calls": 3,
   },
   {
     date: "2023-07-09T00:00:00",
@@ -2099,8 +1719,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 89,
     "Sign ups": 63,
     Logins: 1354,
-    "Sign outs": 1197,
-    "Support calls": 5,
   },
   {
     date: "2023-07-10T00:00:00",
@@ -2110,8 +1728,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 91,
     "Sign ups": 78,
     Logins: 1513,
-    "Sign outs": 1188,
-    "Support calls": 7,
   },
   {
     date: "2023-07-11T00:00:00",
@@ -2121,8 +1737,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 87,
     "Sign ups": 75,
     Logins: 1546,
-    "Sign outs": 1195,
-    "Support calls": 8,
   },
   {
     date: "2023-07-12T00:00:00",
@@ -2132,8 +1746,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 78,
     Logins: 1819,
-    "Sign outs": 1188,
-    "Support calls": 7,
   },
   {
     date: "2023-07-13T00:00:00",
@@ -2143,8 +1755,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 111,
     "Sign ups": 74,
     Logins: 1954,
-    "Sign outs": 1185,
-    "Support calls": 6,
   },
   {
     date: "2023-07-14T00:00:00",
@@ -2154,8 +1764,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 88,
     "Sign ups": 59,
     Logins: 1701,
-    "Sign outs": 1194,
-    "Support calls": 3,
   },
   {
     date: "2023-07-15T00:00:00",
@@ -2165,8 +1773,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 101,
     "Sign ups": 55,
     Logins: 1309,
-    "Sign outs": 1198,
-    "Support calls": 2,
   },
   {
     date: "2023-07-16T00:00:00",
@@ -2176,8 +1782,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 63,
     Logins: 1329,
-    "Sign outs": 1183,
-    "Support calls": 2,
   },
   {
     date: "2023-07-17T00:00:00",
@@ -2187,8 +1791,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 63,
     Logins: 1447,
-    "Sign outs": 1118,
-    "Support calls": 2,
   },
   {
     date: "2023-07-18T00:00:00",
@@ -2198,8 +1800,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 88,
     "Sign ups": 74,
     Logins: 1759,
-    "Sign outs": 1110,
-    "Support calls": 2,
   },
   {
     date: "2023-07-19T00:00:00",
@@ -2209,8 +1809,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 90,
     "Sign ups": 77,
     Logins: 1931,
-    "Sign outs": 1189,
-    "Support calls": 2,
   },
   {
     date: "2023-07-20T00:00:00",
@@ -2220,8 +1818,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 72,
     Logins: 2044,
-    "Sign outs": 1196,
-    "Support calls": 2,
   },
   {
     date: "2023-07-21T00:00:00",
@@ -2231,8 +1827,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 66,
     "Sign ups": 67,
     Logins: 2014,
-    "Sign outs": 1181,
-    "Support calls": 2,
   },
   {
     date: "2023-07-22T00:00:00",
@@ -2242,8 +1836,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 71,
     "Sign ups": 72,
     Logins: 1729,
-    "Sign outs": 1148,
-    "Support calls": 2,
   },
   {
     date: "2023-07-23T00:00:00",
@@ -2253,8 +1845,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 60,
     Logins: 1423,
-    "Sign outs": 1027,
-    "Support calls": 3,
   },
   {
     date: "2023-07-24T00:00:00",
@@ -2264,8 +1854,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 109,
     "Sign ups": 66,
     Logins: 1490,
-    "Sign outs": 1050,
-    "Support calls": 4,
   },
   {
     date: "2023-07-25T00:00:00",
@@ -2275,8 +1863,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 99,
     "Sign ups": 62,
     Logins: 1458,
-    "Sign outs": 1022,
-    "Support calls": 6,
   },
   {
     date: "2023-07-26T00:00:00",
@@ -2286,8 +1872,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 87,
     "Sign ups": 61,
     Logins: 1156,
-    "Sign outs": 953,
-    "Support calls": 4,
   },
   {
     date: "2023-07-27T00:00:00",
@@ -2297,8 +1881,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 96,
     "Sign ups": 80,
     Logins: 1031,
-    "Sign outs": 907,
-    "Support calls": 4,
   },
   {
     date: "2023-07-28T00:00:00",
@@ -2308,8 +1890,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 93,
     "Sign ups": 60,
     Logins: 966,
-    "Sign outs": 903,
-    "Support calls": 5,
   },
   {
     date: "2023-07-29T00:00:00",
@@ -2319,8 +1899,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 99,
     "Sign ups": 57,
     Logins: 896,
-    "Sign outs": 918,
-    "Support calls": 7,
   },
   {
     date: "2023-07-30T00:00:00",
@@ -2330,8 +1908,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 124,
     "Sign ups": 66,
     Logins: 1026,
-    "Sign outs": 922,
-    "Support calls": 9,
   },
   {
     date: "2023-07-31T00:00:00",
@@ -2341,8 +1917,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 124,
     "Sign ups": 60,
     Logins: 961,
-    "Sign outs": 915,
-    "Support calls": 10,
   },
   {
     date: "2023-08-01T00:00:00",
@@ -2352,8 +1926,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 89,
     "Sign ups": 60,
     Logins: 850,
-    "Sign outs": 913,
-    "Support calls": 15,
   },
   {
     date: "2023-08-02T00:00:00",
@@ -2363,8 +1935,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 114,
     "Sign ups": 61,
     Logins: 868,
-    "Sign outs": 901,
-    "Support calls": 18,
   },
   {
     date: "2023-08-03T00:00:00",
@@ -2374,8 +1944,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 123,
     "Sign ups": 77,
     Logins: 939,
-    "Sign outs": 965,
-    "Support calls": 17,
   },
   {
     date: "2023-08-04T00:00:00",
@@ -2385,8 +1953,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 79,
     "Sign ups": 48,
     Logins: 852,
-    "Sign outs": 970,
-    "Support calls": 16,
   },
   {
     date: "2023-08-05T00:00:00",
@@ -2396,8 +1962,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 78,
     "Sign ups": 52,
     Logins: 867,
-    "Sign outs": 1040,
-    "Support calls": 8,
   },
   {
     date: "2023-08-06T00:00:00",
@@ -2407,8 +1971,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 100,
     "Sign ups": 65,
     Logins: 845,
-    "Sign outs": 993,
-    "Support calls": 5,
   },
   {
     date: "2023-08-07T00:00:00",
@@ -2418,8 +1980,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 122,
     "Sign ups": 78,
     Logins: 899,
-    "Sign outs": 905,
-    "Support calls": 5,
   },
   {
     date: "2023-08-08T00:00:00",
@@ -2429,8 +1989,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 117,
     "Sign ups": 72,
     Logins: 941,
-    "Sign outs": 926,
-    "Support calls": 6,
   },
   {
     date: "2023-08-09T00:00:00",
@@ -2440,8 +1998,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 86,
     "Sign ups": 73,
     Logins: 1132,
-    "Sign outs": 903,
-    "Support calls": 5,
   },
   {
     date: "2023-08-10T00:00:00",
@@ -2451,8 +2007,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 80,
     Logins: 1101,
-    "Sign outs": 902,
-    "Support calls": 4,
   },
   {
     date: "2023-08-11T00:00:00",
@@ -2462,8 +2016,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 66,
     "Sign ups": 68,
     Logins: 993,
-    "Sign outs": 967,
-    "Support calls": 4,
   },
   {
     date: "2023-08-12T00:00:00",
@@ -2473,8 +2025,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 67,
     "Sign ups": 70,
     Logins: 858,
-    "Sign outs": 1055,
-    "Support calls": 3,
   },
   {
     date: "2023-08-13T00:00:00",
@@ -2484,8 +2034,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 88,
     "Sign ups": 78,
     Logins: 885,
-    "Sign outs": 1120,
-    "Support calls": 3,
   },
   {
     date: "2023-08-14T00:00:00",
@@ -2495,8 +2043,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 107,
     "Sign ups": 77,
     Logins: 912,
-    "Sign outs": 1193,
-    "Support calls": 4,
   },
   {
     date: "2023-08-15T00:00:00",
@@ -2506,8 +2052,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 80,
     "Sign ups": 76,
     Logins: 845,
-    "Sign outs": 1193,
-    "Support calls": 5,
   },
   {
     date: "2023-08-16T00:00:00",
@@ -2517,8 +2061,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 89,
     "Sign ups": 79,
     Logins: 846,
-    "Sign outs": 1161,
-    "Support calls": 4,
   },
   {
     date: "2023-08-17T00:00:00",
@@ -2528,8 +2070,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 72,
     Logins: 867,
-    "Sign outs": 1189,
-    "Support calls": 3,
   },
   {
     date: "2023-08-18T00:00:00",
@@ -2539,8 +2079,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 58,
     Logins: 984,
-    "Sign outs": 1177,
-    "Support calls": 3,
   },
   {
     date: "2023-08-19T00:00:00",
@@ -2550,8 +2088,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 97,
     "Sign ups": 59,
     Logins: 1006,
-    "Sign outs": 1176,
-    "Support calls": 3,
   },
   {
     date: "2023-08-20T00:00:00",
@@ -2561,8 +2097,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 96,
     "Sign ups": 78,
     Logins: 975,
-    "Sign outs": 1200,
-    "Support calls": 4,
   },
   {
     date: "2023-08-21T00:00:00",
@@ -2572,8 +2106,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 80,
     "Sign ups": 68,
     Logins: 976,
-    "Sign outs": 1148,
-    "Support calls": 4,
   },
   {
     date: "2023-08-22T00:00:00",
@@ -2583,8 +2115,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 80,
     "Sign ups": 74,
     Logins: 1084,
-    "Sign outs": 1196,
-    "Support calls": 5,
   },
   {
     date: "2023-08-23T00:00:00",
@@ -2594,8 +2124,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 96,
     "Sign ups": 76,
     Logins: 1130,
-    "Sign outs": 1118,
-    "Support calls": 6,
   },
   {
     date: "2023-08-24T00:00:00",
@@ -2605,8 +2133,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 104,
     "Sign ups": 75,
     Logins: 944,
-    "Sign outs": 1042,
-    "Support calls": 9,
   },
   {
     date: "2023-08-25T00:00:00",
@@ -2616,8 +2142,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 66,
     Logins: 872,
-    "Sign outs": 960,
-    "Support calls": 9,
   },
   {
     date: "2023-08-26T00:00:00",
@@ -2627,8 +2151,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 54,
     Logins: 858,
-    "Sign outs": 994,
-    "Support calls": 9,
   },
   {
     date: "2023-08-27T00:00:00",
@@ -2638,8 +2160,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 111,
     "Sign ups": 61,
     Logins: 861,
-    "Sign outs": 981,
-    "Support calls": 11,
   },
   {
     date: "2023-08-28T00:00:00",
@@ -2649,8 +2169,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 77,
     Logins: 922,
-    "Sign outs": 979,
-    "Support calls": 12,
   },
   {
     date: "2023-08-29T00:00:00",
@@ -2660,8 +2178,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 112,
     "Sign ups": 64,
     Logins: 935,
-    "Sign outs": 1026,
-    "Support calls": 9,
   },
   {
     date: "2023-08-30T00:00:00",
@@ -2671,8 +2187,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 123,
     "Sign ups": 62,
     Logins: 845,
-    "Sign outs": 1061,
-    "Support calls": 10,
   },
   {
     date: "2023-08-31T00:00:00",
@@ -2682,8 +2196,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 112,
     "Sign ups": 64,
     Logins: 932,
-    "Sign outs": 1026,
-    "Support calls": 15,
   },
   {
     date: "2023-09-01T00:00:00",
@@ -2693,8 +2205,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 78,
     "Sign ups": 60,
     Logins: 958,
-    "Sign outs": 1054,
-    "Support calls": 16,
   },
   {
     date: "2023-09-02T00:00:00",
@@ -2704,8 +2214,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 71,
     "Sign ups": 49,
     Logins: 943,
-    "Sign outs": 1021,
-    "Support calls": 12,
   },
   {
     date: "2023-09-03T00:00:00",
@@ -2715,8 +2223,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 87,
     "Sign ups": 61,
     Logins: 863,
-    "Sign outs": 971,
-    "Support calls": 10,
   },
   {
     date: "2023-09-04T00:00:00",
@@ -2726,8 +2232,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 88,
     "Sign ups": 79,
     Logins: 846,
-    "Sign outs": 969,
-    "Support calls": 8,
   },
   {
     date: "2023-09-05T00:00:00",
@@ -2737,8 +2241,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 71,
     Logins: 880,
-    "Sign outs": 1025,
-    "Support calls": 6,
   },
   {
     date: "2023-09-06T00:00:00",
@@ -2748,8 +2250,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 62,
     Logins: 852,
-    "Sign outs": 999,
-    "Support calls": 6,
   },
   {
     date: "2023-09-07T00:00:00",
@@ -2759,8 +2259,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 80,
     "Sign ups": 67,
     Logins: 856,
-    "Sign outs": 946,
-    "Support calls": 8,
   },
   {
     date: "2023-09-08T00:00:00",
@@ -2770,8 +2268,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 67,
     "Sign ups": 50,
     Logins: 931,
-    "Sign outs": 962,
-    "Support calls": 6,
   },
   {
     date: "2023-09-09T00:00:00",
@@ -2781,8 +2277,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 52,
     Logins: 989,
-    "Sign outs": 908,
-    "Support calls": 3,
   },
   {
     date: "2023-09-10T00:00:00",
@@ -2792,8 +2286,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 61,
     Logins: 1148,
-    "Sign outs": 901,
-    "Support calls": 3,
   },
   {
     date: "2023-09-11T00:00:00",
@@ -2803,8 +2295,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 92,
     "Sign ups": 79,
     Logins: 1198,
-    "Sign outs": 918,
-    "Support calls": 3,
   },
   {
     date: "2023-09-12T00:00:00",
@@ -2814,8 +2304,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 80,
     Logins: 1104,
-    "Sign outs": 907,
-    "Support calls": 4,
   },
   {
     date: "2023-09-13T00:00:00",
@@ -2825,8 +2313,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 88,
     "Sign ups": 77,
     Logins: 1082,
-    "Sign outs": 916,
-    "Support calls": 4,
   },
   {
     date: "2023-09-14T00:00:00",
@@ -2836,8 +2322,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 79,
     Logins: 1119,
-    "Sign outs": 901,
-    "Support calls": 4,
   },
   {
     date: "2023-09-15T00:00:00",
@@ -2847,8 +2331,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 64,
     "Sign ups": 54,
     Logins: 1074,
-    "Sign outs": 911,
-    "Support calls": 3,
   },
   {
     date: "2023-09-16T00:00:00",
@@ -2858,8 +2340,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 73,
     "Sign ups": 56,
     Logins: 1132,
-    "Sign outs": 913,
-    "Support calls": 2,
   },
   {
     date: "2023-09-17T00:00:00",
@@ -2869,8 +2349,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 115,
     "Sign ups": 67,
     Logins: 1260,
-    "Sign outs": 916,
-    "Support calls": 2,
   },
   {
     date: "2023-09-18T00:00:00",
@@ -2880,8 +2358,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 115,
     "Sign ups": 76,
     Logins: 1292,
-    "Sign outs": 914,
-    "Support calls": 2,
   },
   {
     date: "2023-09-19T00:00:00",
@@ -2891,8 +2367,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 115,
     "Sign ups": 66,
     Logins: 1128,
-    "Sign outs": 903,
-    "Support calls": 3,
   },
   {
     date: "2023-09-20T00:00:00",
@@ -2902,8 +2376,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 118,
     "Sign ups": 68,
     Logins: 1196,
-    "Sign outs": 970,
-    "Support calls": 4,
   },
   {
     date: "2023-09-21T00:00:00",
@@ -2913,8 +2385,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 65,
     Logins: 1268,
-    "Sign outs": 953,
-    "Support calls": 4,
   },
   {
     date: "2023-09-22T00:00:00",
@@ -2924,8 +2394,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 73,
     "Sign ups": 54,
     Logins: 1184,
-    "Sign outs": 927,
-    "Support calls": 3,
   },
   {
     date: "2023-09-23T00:00:00",
@@ -2935,8 +2403,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 70,
     "Sign ups": 55,
     Logins: 931,
-    "Sign outs": 998,
-    "Support calls": 2,
   },
   {
     date: "2023-09-24T00:00:00",
@@ -2946,8 +2412,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 103,
     "Sign ups": 80,
     Logins: 950,
-    "Sign outs": 1075,
-    "Support calls": 2,
   },
   {
     date: "2023-09-25T00:00:00",
@@ -2957,8 +2421,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 124,
     "Sign ups": 69,
     Logins: 1131,
-    "Sign outs": 1099,
-    "Support calls": 2,
   },
   {
     date: "2023-09-26T00:00:00",
@@ -2968,8 +2430,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 112,
     "Sign ups": 67,
     Logins: 1013,
-    "Sign outs": 1200,
-    "Support calls": 2,
   },
   {
     date: "2023-09-27T00:00:00",
@@ -2979,8 +2439,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 118,
     "Sign ups": 74,
     Logins: 1053,
-    "Sign outs": 1174,
-    "Support calls": 2,
   },
   {
     date: "2023-09-28T00:00:00",
@@ -2990,8 +2448,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 118,
     "Sign ups": 78,
     Logins: 1065,
-    "Sign outs": 1181,
-    "Support calls": 2,
   },
   {
     date: "2023-09-29T00:00:00",
@@ -3001,8 +2457,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 71,
     "Sign ups": 61,
     Logins: 916,
-    "Sign outs": 1179,
-    "Support calls": 2,
   },
   {
     date: "2023-09-30T00:00:00",
@@ -3012,8 +2466,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 76,
     "Sign ups": 48,
     Logins: 845,
-    "Sign outs": 1198,
-    "Support calls": 3,
   },
   {
     date: "2023-10-01T00:00:00",
@@ -3023,8 +2475,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 90,
     "Sign ups": 64,
     Logins: 891,
-    "Sign outs": 1189,
-    "Support calls": 3,
   },
   {
     date: "2023-10-02T00:00:00",
@@ -3034,8 +2484,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 86,
     "Sign ups": 62,
     Logins: 889,
-    "Sign outs": 1186,
-    "Support calls": 4,
   },
   {
     date: "2023-10-03T00:00:00",
@@ -3045,8 +2493,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 61,
     Logins: 1002,
-    "Sign outs": 1173,
-    "Support calls": 4,
   },
   {
     date: "2023-10-04T00:00:00",
@@ -3056,8 +2502,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 103,
     "Sign ups": 64,
     Logins: 887,
-    "Sign outs": 1151,
-    "Support calls": 6,
   },
   {
     date: "2023-10-05T00:00:00",
@@ -3067,8 +2511,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 63,
     Logins: 863,
-    "Sign outs": 1063,
-    "Support calls": 9,
   },
   {
     date: "2023-10-06T00:00:00",
@@ -3078,8 +2520,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 92,
     "Sign ups": 49,
     Logins: 849,
-    "Sign outs": 1117,
-    "Support calls": 11,
   },
   {
     date: "2023-10-07T00:00:00",
@@ -3089,8 +2529,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 68,
     "Sign ups": 54,
     Logins: 924,
-    "Sign outs": 1196,
-    "Support calls": 13,
   },
   {
     date: "2023-10-08T00:00:00",
@@ -3100,8 +2538,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 61,
     Logins: 1026,
-    "Sign outs": 1180,
-    "Support calls": 14,
   },
   {
     date: "2023-10-09T00:00:00",
@@ -3111,8 +2547,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 121,
     "Sign ups": 64,
     Logins: 1006,
-    "Sign outs": 1181,
-    "Support calls": 12,
   },
   {
     date: "2023-10-10T00:00:00",
@@ -3122,8 +2556,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 98,
     "Sign ups": 66,
     Logins: 1027,
-    "Sign outs": 1183,
-    "Support calls": 13,
   },
   {
     date: "2023-10-11T00:00:00",
@@ -3133,8 +2565,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 117,
     "Sign ups": 66,
     Logins: 983,
-    "Sign outs": 1188,
-    "Support calls": 11,
   },
   {
     date: "2023-10-12T00:00:00",
@@ -3144,8 +2574,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 99,
     "Sign ups": 79,
     Logins: 848,
-    "Sign outs": 1187,
-    "Support calls": 12,
   },
   {
     date: "2023-10-13T00:00:00",
@@ -3155,8 +2583,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 67,
     "Sign ups": 59,
     Logins: 857,
-    "Sign outs": 1179,
-    "Support calls": 7,
   },
   {
     date: "2023-10-14T00:00:00",
@@ -3166,8 +2592,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 67,
     "Sign ups": 57,
     Logins: 928,
-    "Sign outs": 1188,
-    "Support calls": 3,
   },
   {
     date: "2023-10-15T00:00:00",
@@ -3177,8 +2601,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 99,
     "Sign ups": 64,
     Logins: 845,
-    "Sign outs": 1179,
-    "Support calls": 2,
   },
   {
     date: "2023-10-16T00:00:00",
@@ -3188,8 +2610,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 119,
     "Sign ups": 64,
     Logins: 879,
-    "Sign outs": 1182,
-    "Support calls": 2,
   },
   {
     date: "2023-10-17T00:00:00",
@@ -3199,8 +2619,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 119,
     "Sign ups": 64,
     Logins: 862,
-    "Sign outs": 1139,
-    "Support calls": 2,
   },
   {
     date: "2023-10-18T00:00:00",
@@ -3210,8 +2628,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 121,
     "Sign ups": 62,
     Logins: 895,
-    "Sign outs": 1057,
-    "Support calls": 2,
   },
   {
     date: "2023-10-19T00:00:00",
@@ -3221,8 +2637,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 97,
     "Sign ups": 64,
     Logins: 998,
-    "Sign outs": 1100,
-    "Support calls": 2,
   },
   {
     date: "2023-10-20T00:00:00",
@@ -3232,8 +2646,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 70,
     "Sign ups": 67,
     Logins: 940,
-    "Sign outs": 1176,
-    "Support calls": 2,
   },
   {
     date: "2023-10-21T00:00:00",
@@ -3243,8 +2655,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 69,
     "Sign ups": 61,
     Logins: 971,
-    "Sign outs": 1101,
-    "Support calls": 2,
   },
   {
     date: "2023-10-22T00:00:00",
@@ -3254,8 +2664,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 98,
     "Sign ups": 69,
     Logins: 924,
-    "Sign outs": 1139,
-    "Support calls": 2,
   },
   {
     date: "2023-10-23T00:00:00",
@@ -3265,8 +2673,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 119,
     "Sign ups": 63,
     Logins: 844,
-    "Sign outs": 1167,
-    "Support calls": 3,
   },
   {
     date: "2023-10-24T00:00:00",
@@ -3276,8 +2682,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 113,
     "Sign ups": 78,
     Logins: 879,
-    "Sign outs": 1193,
-    "Support calls": 3,
   },
   {
     date: "2023-10-25T00:00:00",
@@ -3287,8 +2691,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 102,
     "Sign ups": 75,
     Logins: 871,
-    "Sign outs": 1095,
-    "Support calls": 2,
   },
   {
     date: "2023-10-26T00:00:00",
@@ -3298,8 +2700,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 121,
     "Sign ups": 75,
     Logins: 961,
-    "Sign outs": 1022,
-    "Support calls": 2,
   },
   {
     date: "2023-10-27T00:00:00",
@@ -3309,8 +2709,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 94,
     "Sign ups": 63,
     Logins: 848,
-    "Sign outs": 1015,
-    "Support calls": 2,
   },
   {
     date: "2023-10-28T00:00:00",
@@ -3320,8 +2718,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 108,
     "Sign ups": 48,
     Logins: 857,
-    "Sign outs": 1061,
-    "Support calls": 2,
   },
   {
     date: "2023-10-30T00:00:00",
@@ -3331,8 +2727,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 94,
     "Sign ups": 62,
     Logins: 874,
-    "Sign outs": 1028,
-    "Support calls": 2,
   },
   {
     date: "2023-10-31T00:00:00",
@@ -3342,8 +2736,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 68,
     Logins: 933,
-    "Sign outs": 1044,
-    "Support calls": 2,
   },
   {
     date: "2023-11-01T00:00:00",
@@ -3353,8 +2745,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 90,
     "Sign ups": 71,
     Logins: 845,
-    "Sign outs": 955,
-    "Support calls": 2,
   },
   {
     date: "2023-11-02T00:00:00",
@@ -3364,8 +2754,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 64,
     Logins: 861,
-    "Sign outs": 908,
-    "Support calls": 2,
   },
   {
     date: "2023-11-03T00:00:00",
@@ -3375,8 +2763,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 77,
     Logins: 984,
-    "Sign outs": 931,
-    "Support calls": 3,
   },
   {
     date: "2023-11-04T00:00:00",
@@ -3386,8 +2772,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 64,
     Logins: 955,
-    "Sign outs": 911,
-    "Support calls": 2,
   },
   {
     date: "2023-11-05T00:00:00",
@@ -3397,8 +2781,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 96,
     "Sign ups": 58,
     Logins: 920,
-    "Sign outs": 985,
-    "Support calls": 2,
   },
   {
     date: "2023-11-06T00:00:00",
@@ -3408,8 +2790,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 95,
     "Sign ups": 64,
     Logins: 855,
-    "Sign outs": 1115,
-    "Support calls": 2,
   },
   {
     date: "2023-11-07T00:00:00",
@@ -3419,8 +2799,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 75,
     Logins: 861,
-    "Sign outs": 1162,
-    "Support calls": 2,
   },
   {
     date: "2023-11-08T00:00:00",
@@ -3430,8 +2808,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 93,
     "Sign ups": 70,
     Logins: 953,
-    "Sign outs": 1187,
-    "Support calls": 2,
   },
   {
     date: "2023-11-09T00:00:00",
@@ -3441,8 +2817,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 121,
     "Sign ups": 63,
     Logins: 861,
-    "Sign outs": 1188,
-    "Support calls": 2,
   },
   {
     date: "2023-11-10T00:00:00",
@@ -3452,8 +2826,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 122,
     "Sign ups": 64,
     Logins: 872,
-    "Sign outs": 1152,
-    "Support calls": 2,
   },
   {
     date: "2023-11-11T00:00:00",
@@ -3463,8 +2835,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 93,
     "Sign ups": 59,
     Logins: 936,
-    "Sign outs": 1087,
-    "Support calls": 2,
   },
   {
     date: "2023-11-12T00:00:00",
@@ -3474,8 +2844,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 65,
     "Sign ups": 54,
     Logins: 987,
-    "Sign outs": 1011,
-    "Support calls": 2,
   },
   {
     date: "2023-11-13T00:00:00",
@@ -3485,8 +2853,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 60,
     Logins: 959,
-    "Sign outs": 902,
-    "Support calls": 2,
   },
   {
     date: "2023-11-14T00:00:00",
@@ -3496,8 +2862,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 69,
     Logins: 998,
-    "Sign outs": 909,
-    "Support calls": 2,
   },
   {
     date: "2023-11-15T00:00:00",
@@ -3507,8 +2871,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 79,
     Logins: 871,
-    "Sign outs": 970,
-    "Support calls": 2,
   },
   {
     date: "2023-11-16T00:00:00",
@@ -3518,8 +2880,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 91,
     "Sign ups": 76,
     Logins: 854,
-    "Sign outs": 1077,
-    "Support calls": 2,
   },
   {
     date: "2023-11-17T00:00:00",
@@ -3529,8 +2889,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 86,
     "Sign ups": 77,
     Logins: 883,
-    "Sign outs": 1060,
-    "Support calls": 2,
   },
   {
     date: "2023-11-18T00:00:00",
@@ -3540,8 +2898,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 73,
     "Sign ups": 61,
     Logins: 844,
-    "Sign outs": 960,
-    "Support calls": 2,
   },
   {
     date: "2023-11-19T00:00:00",
@@ -3551,8 +2907,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 70,
     "Sign ups": 51,
     Logins: 881,
-    "Sign outs": 935,
-    "Support calls": 2,
   },
   {
     date: "2023-11-20T00:00:00",
@@ -3562,8 +2916,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 91,
     "Sign ups": 69,
     Logins: 891,
-    "Sign outs": 911,
-    "Support calls": 2,
   },
   {
     date: "2023-11-21T00:00:00",
@@ -3573,8 +2925,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 61,
     Logins: 865,
-    "Sign outs": 917,
-    "Support calls": 2,
   },
   {
     date: "2023-11-22T00:00:00",
@@ -3584,8 +2934,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 108,
     "Sign ups": 61,
     Logins: 859,
-    "Sign outs": 904,
-    "Support calls": 2,
   },
   {
     date: "2023-11-23T00:00:00",
@@ -3595,8 +2943,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 116,
     "Sign ups": 64,
     Logins: 863,
-    "Sign outs": 934,
-    "Support calls": 2,
   },
   {
     date: "2023-11-24T00:00:00",
@@ -3606,8 +2952,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 93,
     "Sign ups": 60,
     Logins: 869,
-    "Sign outs": 982,
-    "Support calls": 2,
   },
   {
     date: "2023-11-25T00:00:00",
@@ -3617,8 +2961,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 64,
     "Sign ups": 50,
     Logins: 870,
-    "Sign outs": 927,
-    "Support calls": 2,
   },
   {
     date: "2023-11-26T00:00:00",
@@ -3628,8 +2970,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 64,
     "Sign ups": 52,
     Logins: 866,
-    "Sign outs": 904,
-    "Support calls": 2,
   },
   {
     date: "2023-11-27T00:00:00",
@@ -3639,8 +2979,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 64,
     Logins: 876,
-    "Sign outs": 903,
-    "Support calls": 3,
   },
   {
     date: "2023-11-28T00:00:00",
@@ -3650,8 +2988,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 124,
     "Sign ups": 68,
     Logins: 1032,
-    "Sign outs": 915,
-    "Support calls": 4,
   },
   {
     date: "2023-11-29T00:00:00",
@@ -3661,8 +2997,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 113,
     "Sign ups": 64,
     Logins: 1285,
-    "Sign outs": 951,
-    "Support calls": 4,
   },
   {
     date: "2023-11-30T00:00:00",
@@ -3672,8 +3006,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 121,
     "Sign ups": 66,
     Logins: 1697,
-    "Sign outs": 977,
-    "Support calls": 4,
   },
   {
     date: "2023-12-01T00:00:00",
@@ -3683,8 +3015,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 117,
     "Sign ups": 63,
     Logins: 2012,
-    "Sign outs": 958,
-    "Support calls": 5,
   },
   {
     date: "2023-12-02T00:00:00",
@@ -3694,8 +3024,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 106,
     "Sign ups": 49,
     Logins: 2006,
-    "Sign outs": 904,
-    "Support calls": 6,
   },
   {
     date: "2023-12-03T00:00:00",
@@ -3705,8 +3033,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 104,
     "Sign ups": 45,
     Logins: 1794,
-    "Sign outs": 921,
-    "Support calls": 4,
   },
   {
     date: "2023-12-04T00:00:00",
@@ -3716,8 +3042,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 116,
     "Sign ups": 66,
     Logins: 1765,
-    "Sign outs": 913,
-    "Support calls": 4,
   },
   {
     date: "2023-12-05T00:00:00",
@@ -3727,8 +3051,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 96,
     "Sign ups": 68,
     Logins: 1841,
-    "Sign outs": 920,
-    "Support calls": 4,
   },
   {
     date: "2023-12-06T00:00:00",
@@ -3738,8 +3060,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 63,
     Logins: 2022,
-    "Sign outs": 905,
-    "Support calls": 2,
   },
   {
     date: "2023-12-07T00:00:00",
@@ -3749,8 +3069,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 76,
     Logins: 1973,
-    "Sign outs": 918,
-    "Support calls": 2,
   },
   {
     date: "2023-12-08T00:00:00",
@@ -3760,8 +3078,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 73,
     Logins: 1786,
-    "Sign outs": 934,
-    "Support calls": 2,
   },
   {
     date: "2023-12-09T00:00:00",
@@ -3771,8 +3087,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 55,
     Logins: 1533,
-    "Sign outs": 970,
-    "Support calls": 2,
   },
   {
     date: "2023-12-10T00:00:00",
@@ -3782,8 +3096,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 106,
     "Sign ups": 48,
     Logins: 1279,
-    "Sign outs": 1041,
-    "Support calls": 2,
   },
   {
     date: "2023-12-11T00:00:00",
@@ -3793,8 +3105,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 90,
     "Sign ups": 64,
     Logins: 1018,
-    "Sign outs": 986,
-    "Support calls": 2,
   },
   {
     date: "2023-12-12T00:00:00",
@@ -3804,8 +3114,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 80,
     "Sign ups": 78,
     Logins: 973,
-    "Sign outs": 933,
-    "Support calls": 2,
   },
   {
     date: "2023-12-13T00:00:00",
@@ -3815,8 +3123,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 73,
     Logins: 857,
-    "Sign outs": 973,
-    "Support calls": 3,
   },
   {
     date: "2023-12-14T00:00:00",
@@ -3826,8 +3132,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 96,
     "Sign ups": 80,
     Logins: 868,
-    "Sign outs": 1084,
-    "Support calls": 5,
   },
   {
     date: "2023-12-15T00:00:00",
@@ -3837,8 +3141,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 121,
     "Sign ups": 79,
     Logins: 952,
-    "Sign outs": 1086,
-    "Support calls": 5,
   },
   {
     date: "2023-12-16T00:00:00",
@@ -3848,8 +3150,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 90,
     "Sign ups": 60,
     Logins: 1118,
-    "Sign outs": 1046,
-    "Support calls": 2,
   },
   {
     date: "2023-12-17T00:00:00",
@@ -3859,8 +3159,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 66,
     "Sign ups": 48,
     Logins: 1415,
-    "Sign outs": 1115,
-    "Support calls": 2,
   },
   {
     date: "2023-12-18T00:00:00",
@@ -3870,8 +3168,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 67,
     Logins: 1881,
-    "Sign outs": 1113,
-    "Support calls": 2,
   },
   {
     date: "2023-12-19T00:00:00",
@@ -3881,8 +3177,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 121,
     "Sign ups": 60,
     Logins: 1911,
-    "Sign outs": 1001,
-    "Support calls": 2,
   },
   {
     date: "2023-12-20T00:00:00",
@@ -3892,8 +3186,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 125,
     "Sign ups": 60,
     Logins: 1637,
-    "Sign outs": 946,
-    "Support calls": 2,
   },
   {
     date: "2023-12-21T00:00:00",
@@ -3903,8 +3195,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 121,
     "Sign ups": 62,
     Logins: 1519,
-    "Sign outs": 907,
-    "Support calls": 2,
   },
   {
     date: "2023-12-22T00:00:00",
@@ -3914,8 +3204,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 119,
     "Sign ups": 61,
     Logins: 1315,
-    "Sign outs": 933,
-    "Support calls": 2,
   },
   {
     date: "2023-12-23T00:00:00",
@@ -3925,8 +3213,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 94,
     "Sign ups": 52,
     Logins: 1275,
-    "Sign outs": 906,
-    "Support calls": 2,
   },
   {
     date: "2023-12-24T00:00:00",
@@ -3936,8 +3222,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 68,
     "Sign ups": 57,
     Logins: 1138,
-    "Sign outs": 908,
-    "Support calls": 2,
   },
   {
     date: "2023-12-25T00:00:00",
@@ -3947,8 +3231,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 89,
     "Sign ups": 65,
     Logins: 1213,
-    "Sign outs": 924,
-    "Support calls": 2,
   },
   {
     date: "2023-12-26T00:00:00",
@@ -3958,8 +3240,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 98,
     "Sign ups": 60,
     Logins: 1306,
-    "Sign outs": 903,
-    "Support calls": 2,
   },
   {
     date: "2023-12-27T00:00:00",
@@ -3969,8 +3249,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 65,
     Logins: 1536,
-    "Sign outs": 900,
-    "Support calls": 2,
   },
   {
     date: "2023-12-28T00:00:00",
@@ -3980,8 +3258,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 87,
     "Sign ups": 63,
     Logins: 1879,
-    "Sign outs": 922,
-    "Support calls": 3,
   },
   {
     date: "2023-12-29T00:00:00",
@@ -3991,8 +3267,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 99,
     "Sign ups": 60,
     Logins: 2034,
-    "Sign outs": 911,
-    "Support calls": 2,
   },
   {
     date: "2023-12-30T00:00:00",
@@ -4002,8 +3276,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 94,
     "Sign ups": 53,
     Logins: 2009,
-    "Sign outs": 924,
-    "Support calls": 2,
   },
   {
     date: "2023-12-31T00:00:00",
@@ -4013,8 +3285,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 49,
     Logins: 2002,
-    "Sign outs": 918,
-    "Support calls": 2,
   },
   {
     date: "2024-01-01T00:00:00",
@@ -4024,8 +3294,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 87,
     "Sign ups": 66,
     Logins: 2038,
-    "Sign outs": 914,
-    "Support calls": 2,
   },
   {
     date: "2024-01-02T00:00:00",
@@ -4035,8 +3303,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 65,
     Logins: 1994,
-    "Sign outs": 951,
-    "Support calls": 2,
   },
   {
     date: "2024-01-03T00:00:00",
@@ -4046,8 +3312,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 86,
     "Sign ups": 60,
     Logins: 1975,
-    "Sign outs": 1034,
-    "Support calls": 2,
   },
   {
     date: "2024-01-04T00:00:00",
@@ -4057,8 +3321,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 65,
     Logins: 2012,
-    "Sign outs": 1015,
-    "Support calls": 2,
   },
   {
     date: "2024-01-05T00:00:00",
@@ -4068,8 +3330,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 98,
     "Sign ups": 66,
     Logins: 1944,
-    "Sign outs": 1042,
-    "Support calls": 2,
   },
   {
     date: "2024-01-06T00:00:00",
@@ -4079,8 +3339,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 106,
     "Sign ups": 55,
     Logins: 1741,
-    "Sign outs": 995,
-    "Support calls": 2,
   },
   {
     date: "2024-01-07T00:00:00",
@@ -4090,8 +3348,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 92,
     "Sign ups": 52,
     Logins: 1862,
-    "Sign outs": 1065,
-    "Support calls": 2,
   },
   {
     date: "2024-01-08T00:00:00",
@@ -4101,8 +3357,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 119,
     "Sign ups": 65,
     Logins: 2003,
-    "Sign outs": 1028,
-    "Support calls": 2,
   },
   {
     date: "2024-01-09T00:00:00",
@@ -4112,8 +3366,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 112,
     "Sign ups": 68,
     Logins: 1975,
-    "Sign outs": 1113,
-    "Support calls": 2,
   },
   {
     date: "2024-01-10T00:00:00",
@@ -4123,8 +3375,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 121,
     "Sign ups": 63,
     Logins: 2021,
-    "Sign outs": 1060,
-    "Support calls": 2,
   },
   {
     date: "2024-01-11T00:00:00",
@@ -4134,8 +3384,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 112,
     "Sign ups": 64,
     Logins: 2020,
-    "Sign outs": 951,
-    "Support calls": 2,
   },
   {
     date: "2024-01-12T00:00:00",
@@ -4145,8 +3393,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 102,
     "Sign ups": 63,
     Logins: 1934,
-    "Sign outs": 904,
-    "Support calls": 2,
   },
   {
     date: "2024-01-13T00:00:00",
@@ -4156,8 +3402,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 106,
     "Sign ups": 52,
     Logins: 1908,
-    "Sign outs": 913,
-    "Support calls": 2,
   },
   {
     date: "2024-01-14T00:00:00",
@@ -4167,8 +3411,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 50,
     Logins: 1572,
-    "Sign outs": 905,
-    "Support calls": 2,
   },
   {
     date: "2024-01-15T00:00:00",
@@ -4178,8 +3420,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 106,
     "Sign ups": 68,
     Logins: 1311,
-    "Sign outs": 908,
-    "Support calls": 2,
   },
   {
     date: "2024-01-16T00:00:00",
@@ -4189,8 +3429,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 61,
     Logins: 946,
-    "Sign outs": 909,
-    "Support calls": 3,
   },
   {
     date: "2024-01-17T00:00:00",
@@ -4200,8 +3438,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 86,
     "Sign ups": 61,
     Logins: 878,
-    "Sign outs": 910,
-    "Support calls": 3,
   },
   {
     date: "2024-01-18T00:00:00",
@@ -4211,8 +3447,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 66,
     Logins: 895,
-    "Sign outs": 915,
-    "Support calls": 3,
   },
   {
     date: "2024-01-19T00:00:00",
@@ -4222,8 +3456,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 88,
     "Sign ups": 64,
     Logins: 882,
-    "Sign outs": 908,
-    "Support calls": 2,
   },
   {
     date: "2024-01-20T00:00:00",
@@ -4233,8 +3465,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 67,
     "Sign ups": 54,
     Logins: 852,
-    "Sign outs": 929,
-    "Support calls": 2,
   },
   {
     date: "2024-01-21T00:00:00",
@@ -4244,8 +3474,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 70,
     "Sign ups": 47,
     Logins: 854,
-    "Sign outs": 906,
-    "Support calls": 2,
   },
   {
     date: "2024-01-22T00:00:00",
@@ -4255,8 +3483,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 62,
     Logins: 848,
-    "Sign outs": 944,
-    "Support calls": 3,
   },
   {
     date: "2024-01-23T00:00:00",
@@ -4266,8 +3492,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 88,
     "Sign ups": 78,
     Logins: 872,
-    "Sign outs": 1027,
-    "Support calls": 5,
   },
   {
     date: "2024-01-24T00:00:00",
@@ -4277,8 +3501,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 109,
     "Sign ups": 69,
     Logins: 875,
-    "Sign outs": 1095,
-    "Support calls": 5,
   },
   {
     date: "2024-01-25T00:00:00",
@@ -4288,8 +3510,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 80,
     "Sign ups": 76,
     Logins: 914,
-    "Sign outs": 1067,
-    "Support calls": 4,
   },
   {
     date: "2024-01-26T00:00:00",
@@ -4299,8 +3519,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 80,
     "Sign ups": 78,
     Logins: 959,
-    "Sign outs": 1115,
-    "Support calls": 4,
   },
   {
     date: "2024-01-27T00:00:00",
@@ -4310,8 +3528,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 65,
     "Sign ups": 53,
     Logins: 1059,
-    "Sign outs": 1182,
-    "Support calls": 2,
   },
   {
     date: "2024-01-28T00:00:00",
@@ -4321,8 +3537,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 65,
     "Sign ups": 49,
     Logins: 997,
-    "Sign outs": 1180,
-    "Support calls": 2,
   },
   {
     date: "2024-01-29T00:00:00",
@@ -4332,8 +3546,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 64,
     Logins: 950,
-    "Sign outs": 1138,
-    "Support calls": 2,
   },
   {
     date: "2024-01-30T00:00:00",
@@ -4343,8 +3555,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 87,
     "Sign ups": 66,
     Logins: 1028,
-    "Sign outs": 1108,
-    "Support calls": 3,
   },
   {
     date: "2024-01-31T00:00:00",
@@ -4354,8 +3564,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 102,
     "Sign ups": 79,
     Logins: 1198,
-    "Sign outs": 1050,
-    "Support calls": 5,
   },
   {
     date: "2024-02-01T00:00:00",
@@ -4365,8 +3573,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 76,
     Logins: 1458,
-    "Sign outs": 1023,
-    "Support calls": 6,
   },
   {
     date: "2024-02-02T00:00:00",
@@ -4376,8 +3582,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 80,
     "Sign ups": 77,
     Logins: 1712,
-    "Sign outs": 1052,
-    "Support calls": 8,
   },
   {
     date: "2024-02-03T00:00:00",
@@ -4387,8 +3591,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 68,
     "Sign ups": 70,
     Logins: 1704,
-    "Sign outs": 1129,
-    "Support calls": 7,
   },
   {
     date: "2024-02-04T00:00:00",
@@ -4398,8 +3600,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 69,
     "Sign ups": 62,
     Logins: 1393,
-    "Sign outs": 1076,
-    "Support calls": 6,
   },
   {
     date: "2024-02-05T00:00:00",
@@ -4409,8 +3609,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 62,
     Logins: 1235,
-    "Sign outs": 947,
-    "Support calls": 8,
   },
   {
     date: "2024-02-06T00:00:00",
@@ -4420,8 +3618,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 88,
     "Sign ups": 80,
     Logins: 1100,
-    "Sign outs": 921,
-    "Support calls": 8,
   },
   {
     date: "2024-02-07T00:00:00",
@@ -4431,8 +3627,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 87,
     "Sign ups": 71,
     Logins: 932,
-    "Sign outs": 904,
-    "Support calls": 10,
   },
   {
     date: "2024-02-08T00:00:00",
@@ -4442,8 +3636,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 75,
     Logins: 868,
-    "Sign outs": 917,
-    "Support calls": 13,
   },
   {
     date: "2024-02-09T00:00:00",
@@ -4453,8 +3645,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 89,
     "Sign ups": 77,
     Logins: 878,
-    "Sign outs": 900,
-    "Support calls": 15,
   },
   {
     date: "2024-02-10T00:00:00",
@@ -4464,8 +3654,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 72,
     "Sign ups": 58,
     Logins: 1033,
-    "Sign outs": 917,
-    "Support calls": 8,
   },
   {
     date: "2024-02-11T00:00:00",
@@ -4475,8 +3663,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 67,
     "Sign ups": 53,
     Logins: 1008,
-    "Sign outs": 959,
-    "Support calls": 9,
   },
   {
     date: "2024-02-12T00:00:00",
@@ -4486,8 +3672,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 66,
     Logins: 960,
-    "Sign outs": 1040,
-    "Support calls": 14,
   },
   {
     date: "2024-02-13T00:00:00",
@@ -4497,8 +3681,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 80,
     "Sign ups": 63,
     Logins: 858,
-    "Sign outs": 1177,
-    "Support calls": 13,
   },
   {
     date: "2024-02-14T00:00:00",
@@ -4508,8 +3690,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 60,
     Logins: 942,
-    "Sign outs": 1177,
-    "Support calls": 15,
   },
   {
     date: "2024-02-15T00:00:00",
@@ -4519,8 +3699,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 61,
     Logins: 1015,
-    "Sign outs": 1150,
-    "Support calls": 9,
   },
   {
     date: "2024-02-16T00:00:00",
@@ -4530,8 +3708,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 86,
     "Sign ups": 61,
     Logins: 1067,
-    "Sign outs": 1114,
-    "Support calls": 5,
   },
   {
     date: "2024-02-17T00:00:00",
@@ -4541,8 +3717,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 73,
     "Sign ups": 53,
     Logins: 1175,
-    "Sign outs": 1004,
-    "Support calls": 2,
   },
   {
     date: "2024-02-18T00:00:00",
@@ -4552,8 +3726,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 75,
     "Sign ups": 56,
     Logins: 1411,
-    "Sign outs": 959,
-    "Support calls": 2,
   },
   {
     date: "2024-02-19T00:00:00",
@@ -4563,8 +3735,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 90,
     "Sign ups": 65,
     Logins: 1586,
-    "Sign outs": 902,
-    "Support calls": 2,
   },
   {
     date: "2024-02-20T00:00:00",
@@ -4574,8 +3744,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 78,
     Logins: 1792,
-    "Sign outs": 902,
-    "Support calls": 2,
   },
   {
     date: "2024-02-21T00:00:00",
@@ -4585,8 +3753,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 61,
     Logins: 1837,
-    "Sign outs": 917,
-    "Support calls": 2,
   },
   {
     date: "2024-02-22T00:00:00",
@@ -4596,8 +3762,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 65,
     Logins: 1818,
-    "Sign outs": 911,
-    "Support calls": 2,
   },
   {
     date: "2024-02-23T00:00:00",
@@ -4607,8 +3771,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 86,
     "Sign ups": 68,
     Logins: 1460,
-    "Sign outs": 903,
-    "Support calls": 2,
   },
   {
     date: "2024-02-24T00:00:00",
@@ -4618,8 +3780,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 76,
     "Sign ups": 67,
     Logins: 1232,
-    "Sign outs": 926,
-    "Support calls": 2,
   },
   {
     date: "2024-02-25T00:00:00",
@@ -4629,8 +3789,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 75,
     "Sign ups": 49,
     Logins: 1122,
-    "Sign outs": 903,
-    "Support calls": 2,
   },
   {
     date: "2024-02-26T00:00:00",
@@ -4640,8 +3798,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 62,
     Logins: 1118,
-    "Sign outs": 964,
-    "Support calls": 2,
   },
   {
     date: "2024-02-27T00:00:00",
@@ -4651,8 +3807,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 110,
     "Sign ups": 79,
     Logins: 1247,
-    "Sign outs": 1048,
-    "Support calls": 2,
   },
   {
     date: "2024-02-28T00:00:00",
@@ -4662,8 +3816,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 91,
     "Sign ups": 64,
     Logins: 1231,
-    "Sign outs": 1166,
-    "Support calls": 2,
   },
   {
     date: "2024-02-29T00:00:00",
@@ -4673,8 +3825,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 89,
     "Sign ups": 79,
     Logins: 991,
-    "Sign outs": 1153,
-    "Support calls": 2,
   },
   {
     date: "2024-03-01T00:00:00",
@@ -4684,8 +3834,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 110,
     "Sign ups": 71,
     Logins: 865,
-    "Sign outs": 1166,
-    "Support calls": 3,
   },
   {
     date: "2024-03-02T00:00:00",
@@ -4695,8 +3843,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 100,
     "Sign ups": 65,
     Logins: 855,
-    "Sign outs": 1194,
-    "Support calls": 3,
   },
   {
     date: "2024-03-03T00:00:00",
@@ -4706,8 +3852,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 91,
     "Sign ups": 64,
     Logins: 859,
-    "Sign outs": 1172,
-    "Support calls": 2,
   },
   {
     date: "2024-03-04T00:00:00",
@@ -4717,8 +3861,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 122,
     "Sign ups": 61,
     Logins: 867,
-    "Sign outs": 1181,
-    "Support calls": 2,
   },
   {
     date: "2024-03-05T00:00:00",
@@ -4728,8 +3870,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 109,
     "Sign ups": 60,
     Logins: 879,
-    "Sign outs": 1150,
-    "Support calls": 2,
   },
   {
     date: "2024-03-06T00:00:00",
@@ -4739,8 +3879,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 98,
     "Sign ups": 65,
     Logins: 869,
-    "Sign outs": 1088,
-    "Support calls": 2,
   },
   {
     date: "2024-03-07T00:00:00",
@@ -4750,8 +3888,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 104,
     "Sign ups": 77,
     Logins: 877,
-    "Sign outs": 1145,
-    "Support calls": 2,
   },
   {
     date: "2024-03-08T00:00:00",
@@ -4761,8 +3897,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 73,
     Logins: 852,
-    "Sign outs": 1123,
-    "Support calls": 2,
   },
   {
     date: "2024-03-09T00:00:00",
@@ -4772,8 +3906,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 76,
     "Sign ups": 49,
     Logins: 979,
-    "Sign outs": 1140,
-    "Support calls": 2,
   },
   {
     date: "2024-03-10T00:00:00",
@@ -4783,8 +3915,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 68,
     "Sign ups": 50,
     Logins: 1138,
-    "Sign outs": 1150,
-    "Support calls": 2,
   },
   {
     date: "2024-03-11T00:00:00",
@@ -4794,8 +3924,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 60,
     Logins: 1026,
-    "Sign outs": 1084,
-    "Support calls": 2,
   },
   {
     date: "2024-03-12T00:00:00",
@@ -4805,8 +3933,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 70,
     Logins: 858,
-    "Sign outs": 952,
-    "Support calls": 2,
   },
   {
     date: "2024-03-13T00:00:00",
@@ -4816,8 +3942,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 106,
     "Sign ups": 74,
     Logins: 879,
-    "Sign outs": 908,
-    "Support calls": 2,
   },
   {
     date: "2024-03-14T00:00:00",
@@ -4827,8 +3951,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 116,
     "Sign ups": 72,
     Logins: 844,
-    "Sign outs": 917,
-    "Support calls": 2,
   },
   {
     date: "2024-03-15T00:00:00",
@@ -4838,8 +3960,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 120,
     "Sign ups": 73,
     Logins: 852,
-    "Sign outs": 907,
-    "Support calls": 2,
   },
   {
     date: "2024-03-16T00:00:00",
@@ -4849,8 +3969,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 94,
     "Sign ups": 60,
     Logins: 860,
-    "Sign outs": 907,
-    "Support calls": 2,
   },
   {
     date: "2024-03-17T00:00:00",
@@ -4860,8 +3978,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 92,
     "Sign ups": 69,
     Logins: 920,
-    "Sign outs": 932,
-    "Support calls": 2,
   },
   {
     date: "2024-03-18T00:00:00",
@@ -4871,8 +3987,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 75,
     Logins: 856,
-    "Sign outs": 900,
-    "Support calls": 2,
   },
   {
     date: "2024-03-19T00:00:00",
@@ -4882,8 +3996,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 114,
     "Sign ups": 70,
     Logins: 845,
-    "Sign outs": 943,
-    "Support calls": 2,
   },
   {
     date: "2024-03-20T00:00:00",
@@ -4893,8 +4005,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 107,
     "Sign ups": 80,
     Logins: 848,
-    "Sign outs": 903,
-    "Support calls": 2,
   },
   {
     date: "2024-03-21T00:00:00",
@@ -4904,8 +4014,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 61,
     Logins: 847,
-    "Sign outs": 912,
-    "Support calls": 3,
   },
   {
     date: "2024-03-22T00:00:00",
@@ -4915,8 +4023,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 63,
     Logins: 847,
-    "Sign outs": 907,
-    "Support calls": 3,
   },
   {
     date: "2024-03-23T00:00:00",
@@ -4926,8 +4032,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 66,
     "Sign ups": 61,
     Logins: 852,
-    "Sign outs": 903,
-    "Support calls": 4,
   },
   {
     date: "2024-03-24T00:00:00",
@@ -4937,8 +4041,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 66,
     "Sign ups": 51,
     Logins: 952,
-    "Sign outs": 943,
-    "Support calls": 2,
   },
   {
     date: "2024-03-25T00:00:00",
@@ -4948,8 +4050,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 101,
     "Sign ups": 63,
     Logins: 1030,
-    "Sign outs": 982,
-    "Support calls": 2,
   },
   {
     date: "2024-03-26T00:00:00",
@@ -4959,8 +4059,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 124,
     "Sign ups": 78,
     Logins: 1009,
-    "Sign outs": 1087,
-    "Support calls": 2,
   },
   {
     date: "2024-03-27T00:00:00",
@@ -4970,8 +4068,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 100,
     "Sign ups": 70,
     Logins: 868,
-    "Sign outs": 1190,
-    "Support calls": 2,
   },
   {
     date: "2024-03-28T00:00:00",
@@ -4981,8 +4077,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 92,
     "Sign ups": 76,
     Logins: 852,
-    "Sign outs": 1199,
-    "Support calls": 2,
   },
   {
     date: "2024-03-29T00:00:00",
@@ -4992,8 +4086,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 71,
     Logins: 906,
-    "Sign outs": 1103,
-    "Support calls": 2,
   },
   {
     date: "2024-03-30T00:00:00",
@@ -5003,8 +4095,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 75,
     "Sign ups": 66,
     Logins: 866,
-    "Sign outs": 996,
-    "Support calls": 2,
   },
   {
     date: "2024-03-31T00:00:00",
@@ -5014,8 +4104,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 68,
     Logins: 1000,
-    "Sign outs": 910,
-    "Support calls": 2,
   },
   {
     date: "2024-03-31T00:00:00",
@@ -5025,8 +4113,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 119,
     "Sign ups": 74,
     Logins: 1204,
-    "Sign outs": 903,
-    "Support calls": 2,
   },
   {
     date: "2024-04-01T00:00:00",
@@ -5036,8 +4122,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 124,
     "Sign ups": 73,
     Logins: 1374,
-    "Sign outs": 918,
-    "Support calls": 2,
   },
   {
     date: "2024-04-02T00:00:00",
@@ -5047,8 +4131,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 103,
     "Sign ups": 71,
     Logins: 1649,
-    "Sign outs": 930,
-    "Support calls": 3,
   },
   {
     date: "2024-04-03T00:00:00",
@@ -5058,8 +4140,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 117,
     "Sign ups": 76,
     Logins: 1686,
-    "Sign outs": 911,
-    "Support calls": 5,
   },
   {
     date: "2024-04-04T00:00:00",
@@ -5069,8 +4149,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 102,
     "Sign ups": 70,
     Logins: 1373,
-    "Sign outs": 950,
-    "Support calls": 7,
   },
   {
     date: "2024-04-05T00:00:00",
@@ -5080,8 +4158,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 70,
     "Sign ups": 53,
     Logins: 1512,
-    "Sign outs": 973,
-    "Support calls": 9,
   },
   {
     date: "2024-04-06T00:00:00",
@@ -5091,8 +4167,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 63,
     Logins: 1593,
-    "Sign outs": 900,
-    "Support calls": 9,
   },
   {
     date: "2024-04-07T00:00:00",
@@ -5102,8 +4176,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 93,
     "Sign ups": 61,
     Logins: 1926,
-    "Sign outs": 932,
-    "Support calls": 13,
   },
   {
     date: "2024-04-08T00:00:00",
@@ -5113,8 +4185,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 123,
     "Sign ups": 67,
     Logins: 2001,
-    "Sign outs": 971,
-    "Support calls": 14,
   },
   {
     date: "2024-04-09T00:00:00",
@@ -5124,8 +4194,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 112,
     "Sign ups": 78,
     Logins: 1983,
-    "Sign outs": 913,
-    "Support calls": 9,
   },
   {
     date: "2024-04-10T00:00:00",
@@ -5135,8 +4203,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 118,
     "Sign ups": 74,
     Logins: 1946,
-    "Sign outs": 900,
-    "Support calls": 10,
   },
   {
     date: "2024-04-11T00:00:00",
@@ -5146,8 +4212,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 114,
     "Sign ups": 71,
     Logins: 1956,
-    "Sign outs": 915,
-    "Support calls": 10,
   },
   {
     date: "2024-04-12T00:00:00",
@@ -5157,8 +4221,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 69,
     Logins: 1991,
-    "Sign outs": 926,
-    "Support calls": 5,
   },
   {
     date: "2024-04-13T00:00:00",
@@ -5168,8 +4230,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 75,
     "Sign ups": 64,
     Logins: 1795,
-    "Sign outs": 906,
-    "Support calls": 3,
   },
   {
     date: "2024-04-14T00:00:00",
@@ -5179,8 +4239,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 77,
     Logins: 1687,
-    "Sign outs": 965,
-    "Support calls": 4,
   },
   {
     date: "2024-04-15T00:00:00",
@@ -5190,8 +4248,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 79,
     Logins: 1440,
-    "Sign outs": 1023,
-    "Support calls": 7,
   },
   {
     date: "2024-04-16T00:00:00",
@@ -5201,8 +4257,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 87,
     "Sign ups": 73,
     Logins: 1589,
-    "Sign outs": 1149,
-    "Support calls": 11,
   },
   {
     date: "2024-04-17T00:00:00",
@@ -5212,8 +4266,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 81,
     "Sign ups": 75,
     Logins: 1949,
-    "Sign outs": 1135,
-    "Support calls": 9,
   },
   {
     date: "2024-04-18T00:00:00",
@@ -5223,8 +4275,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 106,
     "Sign ups": 71,
     Logins: 2028,
-    "Sign outs": 1159,
-    "Support calls": 7,
   },
   {
     date: "2024-04-19T00:00:00",
@@ -5234,8 +4284,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 98,
     "Sign ups": 65,
     Logins: 2036,
-    "Sign outs": 1187,
-    "Support calls": 3,
   },
   {
     date: "2024-04-20T00:00:00",
@@ -5245,8 +4293,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 101,
     "Sign ups": 68,
     Logins: 1991,
-    "Sign outs": 1176,
-    "Support calls": 3,
   },
   {
     date: "2024-04-21T00:00:00",
@@ -5256,8 +4302,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 97,
     "Sign ups": 60,
     Logins: 2006,
-    "Sign outs": 1174,
-    "Support calls": 4,
   },
   {
     date: "2024-04-22T00:00:00",
@@ -5267,8 +4311,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 61,
     Logins: 2006,
-    "Sign outs": 1169,
-    "Support calls": 6,
   },
   {
     date: "2024-04-23T00:00:00",
@@ -5278,8 +4320,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 80,
     Logins: 1882,
-    "Sign outs": 1159,
-    "Support calls": 7,
   },
   {
     date: "2024-04-24T00:00:00",
@@ -5289,8 +4329,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 112,
     "Sign ups": 74,
     Logins: 1801,
-    "Sign outs": 1040,
-    "Support calls": 8,
   },
   {
     date: "2024-04-25T00:00:00",
@@ -5300,8 +4338,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 120,
     "Sign ups": 72,
     Logins: 1453,
-    "Sign outs": 944,
-    "Support calls": 6,
   },
   {
     date: "2024-04-26T00:00:00",
@@ -5311,8 +4347,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 99,
     "Sign ups": 56,
     Logins: 1264,
-    "Sign outs": 992,
-    "Support calls": 3,
   },
   {
     date: "2024-04-27T00:00:00",
@@ -5322,8 +4356,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 65,
     Logins: 938,
-    "Sign outs": 996,
-    "Support calls": 3,
   },
   {
     date: "2024-04-28T00:00:00",
@@ -5333,8 +4365,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 85,
     "Sign ups": 62,
     Logins: 942,
-    "Sign outs": 1061,
-    "Support calls": 3,
   },
   {
     date: "2024-04-29T00:00:00",
@@ -5344,8 +4374,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 84,
     "Sign ups": 63,
     Logins: 1061,
-    "Sign outs": 1089,
-    "Support calls": 3,
   },
   {
     date: "2024-04-30T00:00:00",
@@ -5355,8 +4383,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 88,
     "Sign ups": 71,
     Logins: 1289,
-    "Sign outs": 1119,
-    "Support calls": 2,
   },
   {
     date: "2024-05-01T00:00:00",
@@ -5366,8 +4392,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 88,
     "Sign ups": 78,
     Logins: 1339,
-    "Sign outs": 1198,
-    "Support calls": 2,
   },
   {
     date: "2024-05-02T00:00:00",
@@ -5377,8 +4401,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 90,
     "Sign ups": 76,
     Logins: 1142,
-    "Sign outs": 1145,
-    "Support calls": 2,
   },
   {
     date: "2024-05-03T00:00:00",
@@ -5388,8 +4410,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 71,
     "Sign ups": 51,
     Logins: 948,
-    "Sign outs": 1049,
-    "Support calls": 2,
   },
   {
     date: "2024-05-04T00:00:00",
@@ -5399,8 +4419,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 51,
     Logins: 1018,
-    "Sign outs": 1012,
-    "Support calls": 2,
   },
   {
     date: "2024-05-05T00:00:00",
@@ -5410,8 +4428,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 90,
     "Sign ups": 64,
     Logins: 1137,
-    "Sign outs": 1095,
-    "Support calls": 2,
   },
   {
     date: "2024-05-06T00:00:00",
@@ -5421,8 +4437,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 119,
     "Sign ups": 78,
     Logins: 1047,
-    "Sign outs": 1196,
-    "Support calls": 2,
   },
   {
     date: "2024-05-07T00:00:00",
@@ -5432,8 +4446,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 111,
     "Sign ups": 72,
     Logins: 848,
-    "Sign outs": 1199,
-    "Support calls": 2,
   },
   {
     date: "2024-05-08T00:00:00",
@@ -5443,8 +4455,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 106,
     "Sign ups": 70,
     Logins: 861,
-    "Sign outs": 1102,
-    "Support calls": 2,
   },
   {
     date: "2024-05-09T00:00:00",
@@ -5454,8 +4464,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 120,
     "Sign ups": 76,
     Logins: 979,
-    "Sign outs": 1126,
-    "Support calls": 3,
   },
   {
     date: "2024-05-10T00:00:00",
@@ -5465,8 +4473,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 67,
     "Sign ups": 65,
     Logins: 928,
-    "Sign outs": 1070,
-    "Support calls": 3,
   },
   {
     date: "2024-05-11T00:00:00",
@@ -5476,8 +4482,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 65,
     "Sign ups": 48,
     Logins: 990,
-    "Sign outs": 1068,
-    "Support calls": 4,
   },
   {
     date: "2024-05-12T00:00:00",
@@ -5487,8 +4491,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 82,
     "Sign ups": 63,
     Logins: 1122,
-    "Sign outs": 1063,
-    "Support calls": 5,
   },
   {
     date: "2024-05-13T00:00:00",
@@ -5498,8 +4500,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 83,
     "Sign ups": 64,
     Logins: 1285,
-    "Sign outs": 1126,
-    "Support calls": 7,
   },
   {
     date: "2024-05-14T00:00:00",
@@ -5509,8 +4509,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 86,
     "Sign ups": 79,
     Logins: 1516,
-    "Sign outs": 1200,
-    "Support calls": 5,
   },
   {
     date: "2024-05-15T00:00:00",
@@ -5520,8 +4518,6 @@ export const overviews: OverviewData[] = [
     "Payments completed": 89,
     "Sign ups": 74,
     Logins: 1803,
-    "Sign outs": 1122,
-    "Support calls": 4,
   },
   {
     date: "2024-05-16T00:00:00",
@@ -5531,7 +4527,5 @@ export const overviews: OverviewData[] = [
     "Payments completed": 88,
     "Sign ups": 73,
     Logins: 2045,
-    "Sign outs": 997,
-    "Support calls": 2,
   },
 ]

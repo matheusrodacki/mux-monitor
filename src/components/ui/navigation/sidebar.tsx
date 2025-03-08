@@ -21,7 +21,7 @@ const navigation = [
   { name: "Details", href: siteConfig.baseLinks.details, icon: RiListCheck },
   {
     name: "Settings",
-    href: siteConfig.baseLinks.settings.general,
+    href: siteConfig.baseLinks.settings,
     icon: RiSettings5Line,
   },
 ] as const
@@ -29,22 +29,22 @@ const navigation = [
 const shortcuts = [
   {
     name: "Add new user",
-    href: "/settings/users",
+    href: "#",
     icon: RiLinkM,
   },
   {
     name: "Workspace usage",
-    href: "/settings/billing#billing-overview",
+    href: "#",
     icon: RiLinkM,
   },
   {
     name: "Cost spend control",
-    href: "/settings/billing#cost-spend-control",
+    href: "#",
     icon: RiLinkM,
   },
   {
     name: "Overview – Rows written",
-    href: "/overview#usage-overview",
+    href: "#",
     icon: RiLinkM,
   },
 ] as const
@@ -52,7 +52,7 @@ const shortcuts = [
 export function Sidebar() {
   const pathname = usePathname()
   const isActive = (itemHref: string) => {
-    if (itemHref === siteConfig.baseLinks.settings.general) {
+    if (itemHref === siteConfig.baseLinks.settings) {
       return pathname.startsWith("/settings")
     }
     return pathname === itemHref || pathname.startsWith(itemHref)

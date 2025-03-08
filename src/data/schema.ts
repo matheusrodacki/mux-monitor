@@ -15,6 +15,4 @@ export type OverviewData = {
   "Payments completed": number
   "Sign ups": number
   Logins: number
-  "Sign outs": number
-  "Support calls": number
 }

@@ -120,20 +120,6 @@ const categories = [
     variance: 0.2,
     weekendReduction: false,
   },
-  {
-    name: "Sign outs",
-    min: 900,
-    max: 1200,
-    variance: 0.1,
-    weekendReduction: false,
-  },
-  {
-    name: "Support calls",
-    min: 2,
-    max: 19,
-    variance: 0.5,
-    weekendReduction: true,
-  },
 ]
 
 const startDate = "2023-01-01"

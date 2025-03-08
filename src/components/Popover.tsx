@@ -1,7 +1,7 @@
-// Tremor Raw Popover [v0.0.0]
+// Tremor Raw Popover [v0.0.2]
 
 import * as PopoverPrimitives from "@radix-ui/react-popover"
-import * as React from "react"
+import React from "react"
 
 import { cx } from "@/lib/utils"
 
@@ -54,7 +54,7 @@ const PopoverContent = React.forwardRef<
       side = "bottom",
       align = "center",
       collisionPadding,
-      avoidCollisions,
+      avoidCollisions = true,
       ...props
     }: ContentProps,
     forwardedRef,
@@ -67,7 +67,7 @@ const PopoverContent = React.forwardRef<
           side={side}
           align={align}
           collisionPadding={collisionPadding}
-          avoidCollisions
+          avoidCollisions={avoidCollisions}
           className={cx(
             // base
             "max-h-[var(--radix-popper-available-height)] min-w-60 overflow-hidden rounded-md border p-2.5 text-sm shadow-md",

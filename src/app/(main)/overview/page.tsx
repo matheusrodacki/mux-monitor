@@ -40,14 +40,6 @@ const categories: {
     title: "Logins",
     type: "unit",
   },
-  {
-    title: "Sign outs",
-    type: "unit",
-  },
-  {
-    title: "Support calls",
-    type: "unit",
-  },
 ]
 
 export type KpiEntry = {
@@ -144,12 +136,6 @@ export default function Overview() {
     from: subDays(maxDate, 30),
     to: maxDate,
   })
-  const [selectedPeriod, setSelectedPeriod] =
-    React.useState<PeriodValue>("last-year")
-
-  const [selectedCategories, setSelectedCategories] = React.useState<string[]>(
-    categories.map((category) => category.title),
-  )
 
   return (
     <>
@@ -207,11 +193,6 @@ export default function Overview() {
             minDate={new Date(2024, 0, 1)}
             selectedDates={selectedDates}
             onDatesChange={(dates) => setSelectedDates(dates)}
-            selectedPeriod={selectedPeriod}
-            onPeriodChange={(period) => setSelectedPeriod(period)}
-            categories={categories}
-            setSelectedCategories={setSelectedCategories}
-            selectedCategories={selectedCategories}
           />
         </div>
         <dl
@@ -219,19 +200,17 @@ export default function Overview() {
             "mt-10 grid grid-cols-1 gap-14 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3",
           )}
         >
-          {categories
-            .filter((category) => selectedCategories.includes(category.title))
-            .map((category) => {
-              return (
-                <ChartCard
-                  key={category.title}
-                  title={category.title}
-                  type={category.type}
-                  selectedDates={selectedDates}
-                  selectedPeriod={selectedPeriod}
-                />
-              )
-            })}
+          {categories.map((category) => {
+            return (
+              <ChartCard
+                key={category.title}
+                title={category.title}
+                type={category.type}
+                selectedDates={selectedDates}
+                selectedPeriod={"last-year"}
+              />
+            )
+          })}
         </dl>
       </section>
     </>

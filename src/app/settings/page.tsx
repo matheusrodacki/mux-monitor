@@ -1,14 +1,11 @@
-import { siteConfig } from "@/app/siteConfig"
 import { Button } from "@/components/Button"
 import { ArrowAnimated } from "@/components/ui/icons/ArrowAnimated"
 import { TremorPlaceholder } from "@/components/ui/icons/TremorPlaceholder"
+import { siteConfig } from "../siteConfig"
 
-export default function Example() {
+export default function Settings() {
   return (
     <>
-      <h1 className="text-lg font-semibold text-gray-900 sm:text-xl dark:text-gray-50">
-        Details
-      </h1>
       <div className="mt-4 sm:mt-6 lg:mt-10">
         <div className="my-40 flex w-full flex-col items-center justify-center">
           <TremorPlaceholder className="size-20 shrink-0" aria-hidden="true" />

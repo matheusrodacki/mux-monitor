@@ -1,8 +1,27 @@
-# Tremor – Dashboard
+<br />
+<div align="center">
+
+<h1 align="center">
+  Tremor – Dashboard Template
+</h1>
+
+<h3 align="center">
+  <a href="https://dashboard-oss.tremor.so/overview">Preview OSS version</a> |
+  <a href="https://dashboard.tremor.so/overview">Preview full version</a> |
+  <a href="https://blocks.tremor.so/templates">Get full version</a>
+</h3>
 
 `Dashboard` is a SaaS application template from [Tremor](https://tremor.so). It's built
 using [`Tremor Raw`](https://raw.tremor.so/docs/getting-started/installation)
 and [Next.js](https://nextjs.org).
+
+<br />
+
+[![Tremor Banner](public/og_github.jpg)](https://dashboard-oss.tremor.so/overview)
+
+</div>
+
+<br />
 
 ## Getting started
 
@@ -34,8 +53,8 @@ components for the UI.
 
 ## License
 
-This site template is a commercial product and is licensed under the
-[Tremor License](https://blocks.tremor.so/license).
+This site template is licensed under the
+[Apache 2.0 License](https://github.com/tremorlabs/tremor-dashboard-template?tab=License-1-ov-file#readme).
 
 ## Learn more
 
@@ -47,4 +66,7 @@ the resources listed below:
 - [Next.js](https://nextjs.org/docs) - Next.js documentation
 - [Radix UI](https://www.radix-ui.com) - Radix UI Website
 - [Recharts](https://recharts.org) - Recharts documentation and website
-- [Tanstack](https://tanstack.com/table/latest) - TanStack table documentation
+
+---
+
+Copyright © 2024 Tremor Labs, Inc. All rights reserved.
