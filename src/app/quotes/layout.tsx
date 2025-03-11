@@ -1,7 +1,4 @@
 "use client"
-import { TabNavigation, TabNavigationLink } from "@/components/TabNavigation"
-import { MetricsCards } from "@/components/ui/homepage/MetricsCards"
-import Link from "next/link"
 import { usePathname } from "next/navigation"
 import React from "react"
 import { siteConfig } from "../siteConfig"
@@ -20,10 +17,10 @@ export default function Layout({
   return (
     <>
       <div className="bg-white dark:bg-gray-925">
-        <div className="p-4 sm:p-6">
+        {/* <div className="p-4 sm:p-6">
           <MetricsCards />
-        </div>
-        <TabNavigation className="mt-6 gap-x-4 px-4 sm:px-6">
+        </div> */}
+        {/* <TabNavigation className="mt-6 gap-x-4 px-4 sm:px-6">
           {navigation.map((item) => (
             <TabNavigationLink
               key={item.name}
@@ -33,7 +30,7 @@ export default function Layout({
               <Link href={item.href}>{item.name}</Link>
             </TabNavigationLink>
           ))}
-        </TabNavigation>
+        </TabNavigation> */}
         <>{children}</>
       </div>
     </>

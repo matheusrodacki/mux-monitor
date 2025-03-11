@@ -16,12 +16,33 @@ import {
 } from "@/components/Sidebar"
 import { cx, focusRing } from "@/lib/utils"
 import { RiArrowDownSFill } from "@remixicon/react"
-import { BookText, House, PackageSearch } from "lucide-react"
+import { Cog, House, LucideIcon } from "lucide-react"
 import * as React from "react"
 import { Logo } from "../../../../public/Logo"
 import { UserProfile } from "./UserProfile"
 
-const navigation = [
+// Tipagem para item de navegação simples
+interface NavigationItem {
+  name: string
+  href: string
+  icon: LucideIcon
+  notifications?: number | boolean
+  active: boolean
+}
+
+// Tipagem para item com submenu
+interface NavigationItemWithChildren {
+  name: string
+  href: string
+  icon: LucideIcon
+  children?: {
+    name: string
+    href: string
+    active: boolean
+  }[]
+}
+
+const navigation: NavigationItem[] = [
   {
     name: "Home",
     href: "#",
@@ -30,66 +51,69 @@ const navigation = [
     active: false,
   },
   {
-    name: "Inbox",
+    name: "Configurações",
     href: "#",
-    icon: PackageSearch,
-    notifications: 2,
+    icon: Cog,
+    notifications: false,
     active: false,
   },
-] as const
+]
 
-const navigation2 = [
-  {
-    name: "Sales",
-    href: "#",
-    icon: BookText,
-    children: [
-      {
-        name: "Quotes",
-        href: "#",
-        active: true,
-      },
-      {
-        name: "Orders",
-        href: "#",
-        active: false,
-      },
-      {
-        name: "Insights & Reports",
-        href: "#",
-        active: false,
-      },
-    ],
-  },
-  {
-    name: "Products",
-    href: "#",
-    icon: PackageSearch,
-    children: [
-      {
-        name: "Items",
-        href: "#",
-        active: false,
-      },
-      {
-        name: "Variants",
-        href: "#",
-        active: false,
-      },
-      {
-        name: "Suppliers",
-        href: "#",
-        active: false,
-      },
-    ],
-  },
-] as const
+const navigation2: NavigationItemWithChildren[] = [
+  // Comentários mantidos da versão original
+  // {
+  //   name: "Sales",
+  //   href: "#",
+  //   icon: BookText,
+  //   children: [
+  //     {
+  //       name: "Quotes",
+  //       href: "#",
+  //       active: true,
+  //     },
+  //     {
+  //       name: "Orders",
+  //       href: "#",
+  //       active: false,
+  //     },
+  //     {
+  //       name: "Insights & Reports",
+  //       href: "#",
+  //       active: false,
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "Products",
+  //   href: "#",
+  //   icon: PackageSearch,
+  //   children: [
+  //     {
+  //       name: "Items",
+  //       href: "#",
+  //       active: false,
+  //     },
+  //     {
+  //       name: "Variants",
+  //       href: "#",
+  //       active: false,
+  //     },
+  //     {
+  //       name: "Suppliers",
+  //       href: "#",
+  //       active: false,
+  //     },
+  //   ],
+  // },
+]
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
-  const [openMenus, setOpenMenus] = React.useState<string[]>([
-    navigation2[0].name,
-    navigation2[1].name,
-  ])
+  // Inicialização segura do estado, não depende mais de índices específicos
+  const [openMenus, setOpenMenus] = React.useState<string[]>(() => {
+    // Inicialmente, abre todos os menus se desejar
+    return navigation2.map((item) => item.name)
+  })
+
   const toggleMenu = (name: string) => {
     setOpenMenus((prev: string[]) =>
       prev.includes(name)
@@ -97,6 +121,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         : [...prev, name],
     )
   }
+
   return (
     <Sidebar {...props} className="bg-gray-50 dark:bg-gray-925">
       <SidebarHeader className="px-3 py-4">
@@ -142,59 +167,68 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
-        <div className="px-3">
-          <Divider className="my-0 py-0" />
-        </div>
-        <SidebarGroup>
-          <SidebarGroupContent>
-            <SidebarMenu className="space-y-4">
-              {navigation2.map((item) => (
-                <SidebarMenuItem key={item.name}>
-                  {/* @CHRIS/SEV: discussion whether to componentize (-> state mgmt) */}
-                  <button
-                    onClick={() => toggleMenu(item.name)}
-                    className={cx(
-                      "flex w-full items-center justify-between gap-x-2.5 rounded-md p-2 text-base text-gray-900 transition hover:bg-gray-200/50 sm:text-sm dark:text-gray-400 hover:dark:bg-gray-900 hover:dark:text-gray-50",
-                      focusRing,
-                    )}
-                  >
-                    <div className="flex items-center gap-2.5">
-                      <item.icon
-                        className="size-[18px] shrink-0"
+
+        {/* Renderiza o divisor apenas se existirem itens em navigation2 */}
+        {navigation2.length > 0 && (
+          <div className="px-3">
+            <Divider className="my-0 py-0" />
+          </div>
+        )}
+
+        {/* Renderiza o grupo de navegação secundário apenas se houver itens */}
+        {navigation2.length > 0 && (
+          <SidebarGroup>
+            <SidebarGroupContent>
+              <SidebarMenu className="space-y-4">
+                {navigation2.map((item) => (
+                  <SidebarMenuItem key={item.name}>
+                    <button
+                      onClick={() => toggleMenu(item.name)}
+                      className={cx(
+                        "flex w-full items-center justify-between gap-x-2.5 rounded-md p-2 text-base text-gray-900 transition hover:bg-gray-200/50 sm:text-sm dark:text-gray-400 hover:dark:bg-gray-900 hover:dark:text-gray-50",
+                        focusRing,
+                      )}
+                    >
+                      <div className="flex items-center gap-2.5">
+                        <item.icon
+                          className="size-[18px] shrink-0"
+                          aria-hidden="true"
+                        />
+                        {item.name}
+                      </div>
+                      <RiArrowDownSFill
+                        className={cx(
+                          openMenus.includes(item.name)
+                            ? "rotate-0"
+                            : "-rotate-90",
+                          "size-5 shrink-0 transform text-gray-400 transition-transform duration-150 ease-in-out dark:text-gray-600",
+                        )}
                         aria-hidden="true"
                       />
-                      {item.name}
-                    </div>
-                    <RiArrowDownSFill
-                      className={cx(
-                        openMenus.includes(item.name)
-                          ? "rotate-0"
-                          : "-rotate-90",
-                        "size-5 shrink-0 transform text-gray-400 transition-transform duration-150 ease-in-out dark:text-gray-600",
+                    </button>
+                    {item.children &&
+                      item.children.length > 0 &&
+                      openMenus.includes(item.name) && (
+                        <SidebarMenuSub>
+                          <div className="absolute inset-y-0 left-4 w-px bg-gray-300 dark:bg-gray-800" />
+                          {item.children.map((child) => (
+                            <SidebarMenuItem key={child.name}>
+                              <SidebarSubLink
+                                href={child.href}
+                                isActive={child.active}
+                              >
+                                {child.name}
+                              </SidebarSubLink>
+                            </SidebarMenuItem>
+                          ))}
+                        </SidebarMenuSub>
                       )}
-                      aria-hidden="true"
-                    />
-                  </button>
-                  {item.children && openMenus.includes(item.name) && (
-                    <SidebarMenuSub>
-                      <div className="absolute inset-y-0 left-4 w-px bg-gray-300 dark:bg-gray-800" />
-                      {item.children.map((child) => (
-                        <SidebarMenuItem key={child.name}>
-                          <SidebarSubLink
-                            href={child.href}
-                            isActive={child.active}
-                          >
-                            {child.name}
-                          </SidebarSubLink>
-                        </SidebarMenuItem>
-                      ))}
-                    </SidebarMenuSub>
-                  )}
-                </SidebarMenuItem>
-              ))}
-            </SidebarMenu>
-          </SidebarGroupContent>
-        </SidebarGroup>
+                  </SidebarMenuItem>
+                ))}
+              </SidebarMenu>
+            </SidebarGroupContent>
+          </SidebarGroup>
+        )}
       </SidebarContent>
       <SidebarFooter>
         <div className="border-t border-gray-200 dark:border-gray-800" />

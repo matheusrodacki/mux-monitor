@@ -1,199 +1,292 @@
 "use client"
-import { BarChart } from "@/components/BarChart"
-import { Button } from "@/components/Button"
-import { ComboChart } from "@/components/ComboChart"
-import { ConditionalBarChart } from "@/components/ConditionalBarChart"
+
 import {
-  CustomTooltip,
-  CustomTooltip2,
-  CustomTooltip3,
-  CustomTooltip4,
-} from "@/components/CustomTooltips"
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/Select"
-import { dataChart, dataChart2, dataChart3, dataChart4 } from "@/data/data"
-import { formatters } from "@/lib/utils"
-import { SlidersHorizontal } from "lucide-react"
+  RiCheckboxCircleFill,
+  RiErrorWarningFill,
+  RiShieldKeyholeFill,
+  RiStopCircleFill,
+} from "@remixicon/react"
+
+import { Card } from "@/components/Card"
+import { Tracker } from "@/components/Tracker"
+import { JSX } from "react"
+
+// Função para gerar dados aleatórios por hora
+const generateSystemData = (systemId: number) => {
+  const data: { tooltip: string; status: Status }[] = []
+  const now = new Date()
+
+  // Gerar dados para 48 horas (2 dias)
+  for (let i = 48; i >= 0; i--) {
+    const date = new Date()
+    date.setHours(now.getHours() - i)
+
+    // Formato da data para tooltip (dia e hora)
+    const tooltipDate = `${date.toLocaleDateString("pt-BR", {
+      day: "numeric",
+      month: "short",
+    })} ${date.getHours().toString().padStart(2, "0")}:00h`
+
+    // Gerar status aleatório com maior probabilidade de estar operacional
+    const rand = Math.random() * 100
+    let status: Status = "Operational"
+    if (rand < 5) status = "Downtime"
+    else if (rand < 8) status = "Inactive"
+
+    data.push({
+      tooltip: tooltipDate,
+      status,
+    })
+  }
+
+  return data
+}
+
+// Atualização do modelo de dados para incluir informações de ECMG
+const systems = Array.from({ length: 16 }, (_, i) => {
+  const systemId = i + 1
+  const primaryData = generateSystemData(systemId)
+  const backupData = generateSystemData(systemId)
+
+  // Gerar aleatoriamente as conexões ECMG (primário ou backup)
+  const ecmgConnections = {
+    synamedia: Math.random() > 0.5 ? "Primário" : "Backup",
+    nagra: Math.random() > 0.5 ? "Primário" : "Backup",
+    verimatrix: Math.random() > 0.5 ? "Primário" : "Backup",
+    nagraTVRO: Math.random() > 0.5 ? "Primário" : "Backup",
+  }
+
+  return {
+    id: systemId,
+    name: `Sistema de Compressão ${systemId}`,
+    location: `Plataforma ${String.fromCharCode(65 + (i % 8))}-${Math.floor(i / 8) + 1}`,
+    status: primaryData[primaryData.length - 1].status,
+    lastRun: new Date().toLocaleString("pt-BR"),
+    ecmgConnections,
+    primary: {
+      name: "MUX Primário",
+      data: primaryData,
+      status: primaryData[primaryData.length - 1].status,
+    },
+    backup: {
+      name: "MUX Backup",
+      data: backupData,
+      status: backupData[backupData.length - 1].status,
+    },
+  }
+})
+
+type Status = "Operational" | "Downtime" | "Inactive"
+
+const colorMapping: Record<Status, string> = {
+  Operational: "bg-emerald-500 dark:bg-emerald-500",
+  Downtime: "bg-red-500 dark:bg-red-500",
+  Inactive: "bg-gray-300 dark:bg-gray-700",
+}
+
+const statusIcons: Record<Status, JSX.Element> = {
+  Operational: (
+    <RiCheckboxCircleFill
+      className="size-5 shrink-0 text-emerald-500 dark:text-emerald-500"
+      aria-hidden={true}
+    />
+  ),
+  Downtime: (
+    <RiErrorWarningFill
+      className="size-5 shrink-0 text-red-500 dark:text-red-500"
+      aria-hidden={true}
+    />
+  ),
+  Inactive: (
+    <RiStopCircleFill
+      className="size-5 shrink-0 text-gray-500 dark:text-gray-500"
+      aria-hidden={true}
+    />
+  ),
+}
+
+const statusLabels: Record<Status, string> = {
+  Operational: "Operacional",
+  Downtime: "Falha",
+  Inactive: "Inativo",
+}
+
+const statusColors: Record<Status, string> = {
+  Operational: "text-emerald-500 dark:text-emerald-500",
+  Downtime: "text-red-500 dark:text-red-500",
+  Inactive: "text-gray-500 dark:text-gray-500",
+}
+
+interface SystemData {
+  tooltip: string
+  status: Status
+}
+
+interface MuxSystem {
+  name: string
+  data: SystemData[]
+  status: Status
+}
+
+interface System {
+  id: number
+  name: string
+  location: string
+  status: Status
+  lastRun: string
+  ecmgConnections: {
+    synamedia: string
+    nagra: string
+    verimatrix: string
+    nagraTVRO: string
+  }
+  primary: MuxSystem
+  backup: MuxSystem
+}
+
+const SystemCard = ({ system }: { system: System }) => {
+  const primaryData = system.primary.data.map((item) => ({
+    ...item,
+    color: colorMapping[item.status as Status],
+  }))
+
+  const backupData = system.backup.data.map((item) => ({
+    ...item,
+    color: colorMapping[item.status as Status],
+  }))
+
+  const systemStatus = system.status as Status
+
+  return (
+    <Card className="h-full">
+      <div className="flex space-x-2">
+        <span
+          className={`w-1 shrink-0 rounded ${colorMapping[systemStatus]}`}
+          aria-hidden={true}
+        />
+        <div className="w-full">
+          <div className="flex items-center space-x-1.5">
+            {statusIcons[systemStatus]}
+            <span
+              className={`text-xs font-medium ${statusColors[systemStatus]}`}
+            >
+              {statusLabels[systemStatus]}
+            </span>
+          </div>
+          <h3 className="mt-1 text-base font-medium text-gray-900 dark:text-gray-50">
+            {system.name}
+          </h3>
+          <div className="mt-2 grid grid-cols-2 gap-1.5">
+            <span
+              tabIndex={1}
+              className="inline-flex items-center gap-1 rounded-md bg-gray-100 px-1.5 py-0.5 text-xs font-medium text-gray-600 dark:bg-gray-800 dark:text-gray-400"
+            >
+              <RiShieldKeyholeFill
+                className="-ml-0.5 size-3 shrink-0"
+                aria-hidden={true}
+              />
+              Synamedia: {system.ecmgConnections.synamedia}
+            </span>
+            <span
+              tabIndex={1}
+              className="inline-flex items-center gap-1 rounded-md bg-gray-100 px-1.5 py-0.5 text-xs font-medium text-gray-600 dark:bg-gray-800 dark:text-gray-400"
+            >
+              <RiShieldKeyholeFill
+                className="-ml-0.5 size-3 shrink-0"
+                aria-hidden={true}
+              />
+              Nagra: {system.ecmgConnections.nagra}
+            </span>
+            <span
+              tabIndex={1}
+              className="inline-flex items-center gap-1 rounded-md bg-gray-100 px-1.5 py-0.5 text-xs font-medium text-gray-600 dark:bg-gray-800 dark:text-gray-400"
+            >
+              <RiShieldKeyholeFill
+                className="-ml-0.5 size-3 shrink-0"
+                aria-hidden={true}
+              />
+              Verimatrix: {system.ecmgConnections.verimatrix}
+            </span>
+            <span
+              tabIndex={1}
+              className="inline-flex items-center gap-1 rounded-md bg-gray-100 px-1.5 py-0.5 text-xs font-medium text-gray-600 dark:bg-gray-800 dark:text-gray-400"
+            >
+              <RiShieldKeyholeFill
+                className="-ml-0.5 size-3 shrink-0"
+                aria-hidden={true}
+              />
+              Nagra TVRO: {system.ecmgConnections.nagraTVRO}
+            </span>
+          </div>
+
+          <div className="mt-3">
+            <div className="mb-1 flex justify-between text-xs">
+              <span className="font-medium text-gray-700 dark:text-gray-300">
+                {system.primary.name}
+              </span>
+              <span
+                className={`${statusColors[system.primary.status as Status]}`}
+              >
+                {statusLabels[system.primary.status as Status]}
+              </span>
+            </div>
+            <Tracker
+              data={primaryData.slice(0, 48)}
+              className="hidden h-4 sm:flex"
+            />
+            <Tracker
+              data={primaryData.slice(24, 48)}
+              className="flex h-4 sm:hidden"
+            />
+          </div>
+
+          <div className="mt-3">
+            <div className="mb-1 flex justify-between text-xs">
+              <span className="font-medium text-gray-700 dark:text-gray-300">
+                {system.backup.name}
+              </span>
+              <span
+                className={`${statusColors[system.backup.status as Status]}`}
+              >
+                {statusLabels[system.backup.status as Status]}
+              </span>
+            </div>
+            <Tracker
+              data={backupData.slice(0, 48)}
+              className="hidden h-4 sm:flex"
+            />
+            <Tracker
+              data={backupData.slice(24, 48)}
+              className="flex h-4 sm:hidden"
+            />
+          </div>
+
+          <div className="mt-2 flex items-center justify-between text-xs text-gray-500 dark:text-gray-500">
+            <span className="hidden sm:block">48 horas</span>
+            <span className="sm:hidden">24 horas</span>
+            <span>Agora</span>
+          </div>
+        </div>
+      </div>
+    </Card>
+  )
+}
 
 export default function Monitoring() {
   return (
-    <section aria-label="App Monitoring">
-      <div className="flex flex-col items-center justify-between gap-2 p-6 sm:flex-row">
-        <Select defaultValue="365-days">
-          <SelectTrigger className="py-1.5 sm:w-44">
-            <SelectValue placeholder="Assigned to..." />
-          </SelectTrigger>
-          <SelectContent align="end">
-            <SelectItem value="30-days">Last 30 days</SelectItem>
-            <SelectItem value="90-days">Last 90 days</SelectItem>
-            <SelectItem value="180-days">Last 180 days</SelectItem>
-            <SelectItem value="365-days">Last 365 days</SelectItem>
-          </SelectContent>
-        </Select>
-        <Button
-          variant="secondary"
-          className="w-full gap-2 py-1.5 text-base sm:w-fit sm:text-sm"
-        >
-          <SlidersHorizontal
-            className="-ml-0.5 size-4 shrink-0 text-gray-400 dark:text-gray-600"
-            aria-hidden="true"
-          />
-          Report Filters
-        </Button>
+    <section
+      aria-label="Monitoramento de Sistemas de Compressão"
+      className="flex min-h-screen w-full flex-col overflow-auto p-3"
+    >
+      <h1 className="mb-2 text-lg font-bold text-gray-900 dark:text-white">
+        Monitoramento de Sistemas de Compressão
+      </h1>
+
+      <div className="grid grid-cols-4 gap-3 pb-3">
+        {systems.map((system) => (
+          <SystemCard key={system.id} system={system} />
+        ))}
       </div>
-      <dl className="grid grid-cols-1 gap-x-14 gap-y-10 border-t border-gray-200 p-6 md:grid-cols-2 dark:border-gray-800">
-        <div className="flex flex-col justify-between p-0">
-          <div>
-            <dt className="text-sm font-semibold text-gray-900 dark:text-gray-50">
-              Inherent risk
-            </dt>
-            <dd className="mt-0.5 text-sm/6 text-gray-500 dark:text-gray-500">
-              Risk scenarios over time grouped by risk level
-            </dd>
-          </div>
-          <BarChart
-            data={dataChart}
-            index="date"
-            categories={["Current year", "Same period last year"]}
-            colors={["blue", "lightGray"]}
-            yAxisWidth={45}
-            customTooltip={CustomTooltip}
-            yAxisLabel="Number of inherent risks"
-            barCategoryGap="20%"
-            valueFormatter={(value) => formatters.unit(value)}
-            className="mt-4 hidden h-60 md:block"
-          />
-          <BarChart
-            data={dataChart}
-            index="date"
-            categories={["Current year", "Same period last year"]}
-            colors={["blue", "lightGray"]}
-            showYAxis={false}
-            customTooltip={CustomTooltip}
-            barCategoryGap="20%"
-            className="mt-4 h-60 md:hidden"
-          />
-        </div>
-        <div className="flex flex-col justify-between">
-          <div>
-            <dt className="text-sm font-semibold text-gray-900 dark:text-gray-50">
-              Quote-to-Deal ratio
-            </dt>
-            <dd className="mt-0.5 text-sm/6 text-gray-500 dark:text-gray-500">
-              Number of quotes compared to total deal size for given month
-            </dd>
-          </div>
-          <ComboChart
-            data={dataChart2}
-            index="date"
-            enableBiaxial={true}
-            barSeries={{
-              categories: ["Quotes"],
-              yAxisLabel: "Number of quotes / Deal size ($)",
-              valueFormatter: (value) =>
-                formatters.currency({ number: value, maxFractionDigits: 0 }),
-            }}
-            lineSeries={{
-              categories: ["Total deal size"],
-              colors: ["lightGray"],
-              showYAxis: false,
-            }}
-            customTooltip={CustomTooltip2}
-            className="mt-4 hidden h-60 md:block"
-          />
-          <ComboChart
-            data={dataChart2}
-            index="date"
-            enableBiaxial={true}
-            barSeries={{
-              categories: ["Quotes"],
-              showYAxis: false,
-            }}
-            lineSeries={{
-              categories: ["Total deal size"],
-              colors: ["lightGray"],
-              showYAxis: false,
-            }}
-            customTooltip={CustomTooltip2}
-            className="mt-4 h-60 md:hidden"
-          />
-        </div>
-        <div className="flex flex-col justify-between">
-          <div>
-            <dt className="text-sm font-semibold text-gray-900 dark:text-gray-50">
-              ESG impact
-            </dt>
-            <dd className="mt-0.5 text-sm/6 text-gray-500 dark:text-gray-500">
-              Evaluation of addressed ESG criteria in biddings over time
-            </dd>
-          </div>
-          <BarChart
-            data={dataChart3}
-            index="date"
-            categories={["Addressed", "Unrealized"]}
-            colors={["emerald", "lightEmerald"]}
-            customTooltip={CustomTooltip3}
-            type="percent"
-            yAxisWidth={55}
-            yAxisLabel="% of criteria addressed"
-            barCategoryGap="30%"
-            className="mt-4 hidden h-60 md:block"
-          />
-          <BarChart
-            data={dataChart3}
-            index="date"
-            categories={["Addressed", "Unrealized"]}
-            colors={["emerald", "lightEmerald"]}
-            customTooltip={CustomTooltip3}
-            showYAxis={false}
-            type="percent"
-            barCategoryGap="30%"
-            className="mt-4 h-60 md:hidden"
-          />
-        </div>
-        <div className="flex flex-col justify-between">
-          <div>
-            <dt className="text-sm font-semibold text-gray-900 dark:text-gray-50">
-              Bidder density
-            </dt>
-            <dd className="mt-0.5 text-sm/6 text-gray-500 dark:text-gray-500">
-              Competition level measured by number and size of bidders over time
-            </dd>
-          </div>
-          <ConditionalBarChart
-            data={dataChart4}
-            index="date"
-            categories={["Density"]}
-            colors={["orange"]}
-            customTooltip={CustomTooltip4}
-            valueFormatter={(value) =>
-              formatters.percentage({ number: value, decimals: 0 })
-            }
-            yAxisWidth={55}
-            yAxisLabel="Competition density (%)"
-            barCategoryGap="30%"
-            className="mt-4 hidden h-60 md:block"
-          />
-          <ConditionalBarChart
-            data={dataChart4}
-            index="date"
-            categories={["Density"]}
-            colors={["orange"]}
-            customTooltip={CustomTooltip4}
-            valueFormatter={(value) =>
-              formatters.percentage({ number: value, decimals: 0 })
-            }
-            showYAxis={false}
-            barCategoryGap="30%"
-            className="mt-4 h-60 md:hidden"
-          />
-        </div>
-      </dl>
     </section>
   )
 }
