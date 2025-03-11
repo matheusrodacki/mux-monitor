@@ -43,7 +43,7 @@ const generateSystemData = (systemId: number) => {
 }
 
 // Atualização do modelo de dados para incluir informações de ECMG
-const systems = Array.from({ length: 16 }, (_, i) => {
+const systems = Array.from({ length: 15 }, (_, i) => {
   const systemId = i + 1
   const primaryData = generateSystemData(systemId)
   const backupData = generateSystemData(systemId)
@@ -161,66 +161,66 @@ const SystemCard = ({ system }: { system: System }) => {
     <Card className="h-full">
       <div className="flex space-x-2">
         <span
-          className={`w-1 shrink-0 rounded ${colorMapping[systemStatus]}`}
+          className={`w-1.5 shrink-0 rounded ${colorMapping[systemStatus]}`}
           aria-hidden={true}
         />
         <div className="w-full">
           <div className="flex items-center space-x-1.5">
             {statusIcons[systemStatus]}
             <span
-              className={`text-xs font-medium ${statusColors[systemStatus]}`}
+              className={`text-sm font-medium ${statusColors[systemStatus]}`}
             >
               {statusLabels[systemStatus]}
             </span>
           </div>
-          <h3 className="mt-1 text-base font-medium text-gray-900 dark:text-gray-50">
+          <h3 className="mt-1.5 text-lg font-medium text-gray-900 dark:text-gray-50">
             {system.name}
           </h3>
-          <div className="mt-2 grid grid-cols-2 gap-1.5">
+          <div className="mt-3 grid grid-cols-2 gap-2">
             <span
               tabIndex={1}
-              className="inline-flex items-center gap-1 rounded-md bg-gray-100 px-1.5 py-0.5 text-xs font-medium text-gray-600 dark:bg-gray-800 dark:text-gray-400"
+              className="inline-flex items-center gap-1 rounded-md bg-gray-100 px-2 py-1 text-sm font-medium text-gray-600 dark:bg-gray-800 dark:text-gray-400"
             >
               <RiShieldKeyholeFill
-                className="-ml-0.5 size-3 shrink-0"
+                className="-ml-0.5 size-3.5 shrink-0"
                 aria-hidden={true}
               />
-              Synamedia: {system.ecmgConnections.synamedia}
+              Syn: {system.ecmgConnections.synamedia}
             </span>
             <span
               tabIndex={1}
-              className="inline-flex items-center gap-1 rounded-md bg-gray-100 px-1.5 py-0.5 text-xs font-medium text-gray-600 dark:bg-gray-800 dark:text-gray-400"
+              className="inline-flex items-center gap-1 rounded-md bg-gray-100 px-2 py-1 text-sm font-medium text-gray-600 dark:bg-gray-800 dark:text-gray-400"
             >
               <RiShieldKeyholeFill
-                className="-ml-0.5 size-3 shrink-0"
+                className="-ml-0.5 size-3.5 shrink-0"
                 aria-hidden={true}
               />
-              Nagra: {system.ecmgConnections.nagra}
+              Nagra 1: {system.ecmgConnections.nagra}
             </span>
             <span
               tabIndex={1}
-              className="inline-flex items-center gap-1 rounded-md bg-gray-100 px-1.5 py-0.5 text-xs font-medium text-gray-600 dark:bg-gray-800 dark:text-gray-400"
+              className="inline-flex items-center gap-1 rounded-md bg-gray-100 px-2 py-1 text-sm font-medium text-gray-600 dark:bg-gray-800 dark:text-gray-400"
             >
               <RiShieldKeyholeFill
-                className="-ml-0.5 size-3 shrink-0"
+                className="-ml-0.5 size-3.5 shrink-0"
                 aria-hidden={true}
               />
-              Verimatrix: {system.ecmgConnections.verimatrix}
+              Vx: {system.ecmgConnections.verimatrix}
             </span>
             <span
               tabIndex={1}
-              className="inline-flex items-center gap-1 rounded-md bg-gray-100 px-1.5 py-0.5 text-xs font-medium text-gray-600 dark:bg-gray-800 dark:text-gray-400"
+              className="inline-flex items-center gap-1 rounded-md bg-gray-100 px-2 py-1 text-sm font-medium text-gray-600 dark:bg-gray-800 dark:text-gray-400"
             >
               <RiShieldKeyholeFill
-                className="-ml-0.5 size-3 shrink-0"
+                className="-ml-0.5 size-3.5 shrink-0"
                 aria-hidden={true}
               />
-              Nagra TVRO: {system.ecmgConnections.nagraTVRO}
+              Nagra 2: {system.ecmgConnections.nagraTVRO}
             </span>
           </div>
 
-          <div className="mt-3">
-            <div className="mb-1 flex justify-between text-xs">
+          <div className="mt-4">
+            <div className="mb-1.5 flex justify-between text-sm">
               <span className="font-medium text-gray-700 dark:text-gray-300">
                 {system.primary.name}
               </span>
@@ -232,16 +232,16 @@ const SystemCard = ({ system }: { system: System }) => {
             </div>
             <Tracker
               data={primaryData.slice(0, 48)}
-              className="hidden h-4 sm:flex"
+              className="hidden h-5 sm:flex"
             />
             <Tracker
               data={primaryData.slice(24, 48)}
-              className="flex h-4 sm:hidden"
+              className="flex h-5 sm:hidden"
             />
           </div>
 
           <div className="mt-3">
-            <div className="mb-1 flex justify-between text-xs">
+            <div className="mb-1.5 flex justify-between text-sm">
               <span className="font-medium text-gray-700 dark:text-gray-300">
                 {system.backup.name}
               </span>
@@ -253,11 +253,11 @@ const SystemCard = ({ system }: { system: System }) => {
             </div>
             <Tracker
               data={backupData.slice(0, 48)}
-              className="hidden h-4 sm:flex"
+              className="hidden h-5 sm:flex"
             />
             <Tracker
               data={backupData.slice(24, 48)}
-              className="flex h-4 sm:hidden"
+              className="flex h-5 sm:hidden"
             />
           </div>
 
@@ -278,11 +278,7 @@ export default function Monitoring() {
       aria-label="Monitoramento de Sistemas de Compressão"
       className="flex min-h-screen w-full flex-col overflow-auto p-3"
     >
-      <h1 className="mb-2 text-lg font-bold text-gray-900 dark:text-white">
-        Monitoramento de Sistemas de Compressão
-      </h1>
-
-      <div className="grid grid-cols-4 gap-3 pb-3">
+      <div className="grid grid-cols-5 gap-3 pb-3">
         {systems.map((system) => (
           <SystemCard key={system.id} system={system} />
         ))}
