@@ -1,0 +1,81 @@
+// This is your Prisma schema file.
+// You can use it to define your data model and configure your database connection.
+// Prisma will generate a client based on this schema.
+// You can find more information about the schema syntax in the Prisma documentation:
+// https://www.prisma.io/docs/reference/api-reference/prisma-schema-reference
+// You can also use the Prisma CLI to generate a client based on this schema.
+
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// Sistema de compressão
+model CompressionSystem {
+  id          Int      @id @default(autoincrement())
+  name        String
+  location    String
+  status      String   // "Operational", "Downtime", "Inactive"
+  lastRun     DateTime @default(now())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relacionamentos
+  muxes       Mux[]
+}
+
+// Multiplexadores (MUXes)
+model Mux {
+  id          Int      @id @default(autoincrement())
+  name        String   // Ex: "MUX Primário", "MUX Backup"
+  ipAddress   String
+  type        MuxType  // ENUM: PRIMARY ou BACKUP
+  status      String   // "Operational", "Downtime", "Inactive"
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relacionamentos
+  systemId    Int
+  system      CompressionSystem @relation(fields: [systemId], references: [id], onDelete: Cascade)
+  alarms      Alarm[]
+}
+
+// Tipos de MUX
+enum MuxType {
+  PRIMARY
+  BACKUP
+}
+
+// Alarmes
+model Alarm {
+  id          Int       @id @default(autoincrement())
+  uid         String    @unique // UID do alarme original
+  type        Int       // Tipo do alarme (42, 43, etc)
+  level       AlarmLevel
+  startDate   DateTime
+  clearDate   DateTime?
+  source      String    // "Scg", "Emmg", etc
+  name        String    // Nome do alarme
+  description String    // Descrição detalhada
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  // Relacionamentos
+  muxId       Int
+  mux         Mux       @relation(fields: [muxId], references: [id], onDelete: Cascade)
+}
+
+// Níveis de alarme
+enum AlarmLevel {
+  CRITICAL
+  MAJOR
+  MINOR
+  WARNING
+  INFO
+}
+
