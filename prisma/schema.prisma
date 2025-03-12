@@ -32,7 +32,6 @@ model CompressionSystem {
 // Multiplexadores (MUXes)
 model Mux {
   id          Int      @id @default(autoincrement())
-  name        String   // Ex: "MUX Primário", "MUX Backup"
   ipAddress   String
   type        MuxType  // ENUM: PRIMARY ou BACKUP
   status      String   // "Operational", "Downtime", "Inactive"

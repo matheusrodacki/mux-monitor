@@ -52,7 +52,7 @@ const navigation: NavigationItem[] = [
   },
   {
     name: "Configurações",
-    href: "#",
+    href: "settings",
     icon: Cog,
     notifications: false,
     active: false,
