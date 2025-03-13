@@ -45,14 +45,14 @@ interface NavigationItemWithChildren {
 const navigation: NavigationItem[] = [
   {
     name: "Home",
-    href: "#",
+    href: "/quotes/monitoring",
     icon: House,
     notifications: false,
     active: false,
   },
   {
     name: "Configurações",
-    href: "settings",
+    href: "/quotes/settings",
     icon: Cog,
     notifications: false,
     active: false,
@@ -155,7 +155,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               {navigation.map((item) => (
                 <SidebarMenuItem key={item.name}>
                   <SidebarLink
-                    href="#"
+                    href={item.href}
                     isActive={item.active}
                     icon={item.icon}
                     notifications={item.notifications}
