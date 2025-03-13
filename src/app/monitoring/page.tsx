@@ -184,47 +184,33 @@ export default function Monitoring() {
   const [systems, setSystems] = useState<System[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
-  const [ecmgStatuses, setEcmgStatuses] = useState<any[]>([])
-  const [ecmgLoading, setEcmgLoading] = useState(true)
 
   useEffect(() => {
     async function fetchData() {
       try {
         setLoading(true)
-        setEcmgLoading(true)
 
-        // Buscar dados dos sistemas
-        const systemsResponse = await fetch("/api/muxes")
+        // Usar nossa nova API de monitoramento
+        const response = await fetch("/api/monitoring")
 
-        if (!systemsResponse.ok) {
+        if (!response.ok) {
           throw new Error("Falha ao carregar dados dos sistemas")
         }
 
-        const systemsData = await systemsResponse.json()
-        setSystems(systemsData.systems)
-
-        // Buscar status dos ECMGs
-        const ecmgStatusResponse = await fetch("/api/ecmgs/status")
-
-        if (!ecmgStatusResponse.ok) {
-          throw new Error("Falha ao carregar dados dos ECMGs")
-        }
-
-        const ecmgStatusData = await ecmgStatusResponse.json()
-        setEcmgStatuses(ecmgStatusData.ecmgStatuses)
-
+        const data = await response.json()
+        setSystems(data.systems)
         setError(null)
       } catch (err) {
         setError("Erro ao carregar dados. Tente novamente.")
         console.error(err)
       } finally {
         setLoading(false)
-        setEcmgLoading(false)
       }
     }
 
     fetchData()
 
+    // Atualizar a cada 30 segundos
     const intervalId = setInterval(() => {
       fetchData()
     }, 30000)
@@ -259,7 +245,7 @@ export default function Monitoring() {
       aria-label="Monitoramento de Sistemas de Compressão"
       className="flex min-h-screen w-full flex-col overflow-auto p-3"
     >
-      <div className="grid grid-cols-5 gap-3 pb-3">
+      <div className="grid grid-cols-1 gap-3 pb-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
         {systems.map((system) => (
           <SystemCard key={system.id} system={system} />
         ))}
