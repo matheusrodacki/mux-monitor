@@ -57,9 +57,6 @@ async function getSidebarItems() {
       orderBy: {
         name: "asc",
       },
-      include: {
-        muxes: true,
-      },
     })
 
     // Criar item de menu para Sistemas com submenu baseado nos dados obtidos
