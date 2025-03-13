@@ -7,16 +7,16 @@ export function Breadcrumbs() {
 
   let breadcrumbs = []
 
-  if (pathname.includes("/quotes/settings")) {
+  if (pathname.includes("/settings")) {
     breadcrumbs.push({
       name: "Configurações",
-      href: "/quotes/settings",
+      href: "/settings",
       current: true,
     })
-  } else if (pathname.includes("/quotes/monitoring")) {
+  } else if (pathname.includes("/monitoring")) {
     breadcrumbs.push({
       name: "Home",
-      href: "/quotes/monitoring",
+      href: "/monitoring",
       current: true,
     })
   }

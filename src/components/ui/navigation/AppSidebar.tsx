@@ -16,7 +16,7 @@ import {
 } from "@/components/Sidebar"
 import { cx, focusRing } from "@/lib/utils"
 import { RiArrowDownSFill } from "@remixicon/react"
-import { Cog, House, LucideIcon } from "lucide-react"
+import { BookText, Cog, House, LucideIcon, PackageSearch } from "lucide-react"
 import * as React from "react"
 import { Logo } from "../../../../public/Logo"
 import { UserProfile } from "./UserProfile"
@@ -45,14 +45,14 @@ interface NavigationItemWithChildren {
 const navigation: NavigationItem[] = [
   {
     name: "Home",
-    href: "/quotes/monitoring",
+    href: "/monitoring",
     icon: House,
     notifications: false,
     active: false,
   },
   {
     name: "Configurações",
-    href: "/quotes/settings",
+    href: "/settings",
     icon: Cog,
     notifications: false,
     active: false,
@@ -61,50 +61,50 @@ const navigation: NavigationItem[] = [
 
 const navigation2: NavigationItemWithChildren[] = [
   // Comentários mantidos da versão original
-  // {
-  //   name: "Sales",
-  //   href: "#",
-  //   icon: BookText,
-  //   children: [
-  //     {
-  //       name: "Quotes",
-  //       href: "#",
-  //       active: true,
-  //     },
-  //     {
-  //       name: "Orders",
-  //       href: "#",
-  //       active: false,
-  //     },
-  //     {
-  //       name: "Insights & Reports",
-  //       href: "#",
-  //       active: false,
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: "Products",
-  //   href: "#",
-  //   icon: PackageSearch,
-  //   children: [
-  //     {
-  //       name: "Items",
-  //       href: "#",
-  //       active: false,
-  //     },
-  //     {
-  //       name: "Variants",
-  //       href: "#",
-  //       active: false,
-  //     },
-  //     {
-  //       name: "Suppliers",
-  //       href: "#",
-  //       active: false,
-  //     },
-  //   ],
-  // },
+  {
+    name: "Sales",
+    href: "#",
+    icon: BookText,
+    children: [
+      {
+        name: "Quotes",
+        href: "#",
+        active: true,
+      },
+      {
+        name: "Orders",
+        href: "#",
+        active: false,
+      },
+      {
+        name: "Insights & Reports",
+        href: "#",
+        active: false,
+      },
+    ],
+  },
+  {
+    name: "Products",
+    href: "#",
+    icon: PackageSearch,
+    children: [
+      {
+        name: "Items",
+        href: "#",
+        active: false,
+      },
+      {
+        name: "Variants",
+        href: "#",
+        active: false,
+      },
+      {
+        name: "Suppliers",
+        href: "#",
+        active: false,
+      },
+    ],
+  },
 ]
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
