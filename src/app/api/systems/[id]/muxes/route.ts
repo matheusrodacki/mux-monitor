@@ -4,11 +4,10 @@ import { NextResponse } from "next/server"
 // GET /api/systems/[id]/muxes - Listar muxes de um sistema
 export async function GET(
   request: Request,
-  { params }: { params: { id: string | Promise<string> } },
+  context: { params: { id: string } },
 ) {
   try {
-    // Aguardar o valor de params.id antes de usá-lo
-    const id = await params.id
+    const { id } = await context.params
     const systemId = parseInt(id)
 
     if (isNaN(systemId)) {
@@ -34,11 +33,10 @@ export async function GET(
 // POST /api/systems/[id]/muxes - Adicionar um mux a um sistema
 export async function POST(
   request: Request,
-  { params }: { params: { id: string | Promise<string> } },
+  context: { params: { id: string } },
 ) {
   try {
-    // Aguardar o valor de params.id antes de usá-lo
-    const id = await params.id
+    const { id } = await context.params
     const systemId = parseInt(id)
 
     if (isNaN(systemId)) {

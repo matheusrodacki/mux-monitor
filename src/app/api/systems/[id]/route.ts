@@ -4,17 +4,18 @@ import { NextResponse } from "next/server"
 // GET /api/systems/[id] - Buscar um sistema específico
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } },
+  context: { params: { id: string } },
 ) {
   try {
-    const id = parseInt(params.id)
+    const { id } = await context.params
+    const systemId = parseInt(id)
 
-    if (isNaN(id)) {
+    if (isNaN(systemId)) {
       return NextResponse.json({ error: "ID inválido" }, { status: 400 })
     }
 
     const system = await prisma.compressionSystem.findUnique({
-      where: { id },
+      where: { id: systemId },
       include: {
         muxes: true,
       },
@@ -40,12 +41,13 @@ export async function GET(
 // PUT /api/systems/[id] - Atualizar um sistema
 export async function PUT(
   request: Request,
-  { params }: { params: { id: string } },
+  context: { params: { id: string } },
 ) {
   try {
-    const id = parseInt(params.id)
+    const { id } = await context.params
+    const systemId = parseInt(id)
 
-    if (isNaN(id)) {
+    if (isNaN(systemId)) {
       return NextResponse.json({ error: "ID inválido" }, { status: 400 })
     }
 
@@ -58,10 +60,9 @@ export async function PUT(
     }
 
     const system = await prisma.compressionSystem.update({
-      where: { id },
+      where: { id: systemId },
       data: {
         name,
-        location,
         status,
       },
     })
@@ -79,17 +80,18 @@ export async function PUT(
 // DELETE /api/systems/[id] - Excluir um sistema
 export async function DELETE(
   request: Request,
-  { params }: { params: { id: string } },
+  context: { params: { id: string } },
 ) {
   try {
-    const id = parseInt(params.id)
+    const { id } = await context.params
+    const systemId = parseInt(id)
 
-    if (isNaN(id)) {
+    if (isNaN(systemId)) {
       return NextResponse.json({ error: "ID inválido" }, { status: 400 })
     }
 
     await prisma.compressionSystem.delete({
-      where: { id },
+      where: { id: systemId },
     })
 
     return NextResponse.json({ success: true })

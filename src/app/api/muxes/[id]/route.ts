@@ -4,15 +4,14 @@ import { NextResponse } from "next/server"
 // GET /api/muxes/[id] - Buscar um MUX específico
 export async function GET(
   request: Request,
-  { params }: { params: { id: string | Promise<string> } },
+  context: { params: { id: string } },
 ) {
   try {
-    // Aguardar o valor de params.id antes de usá-lo
-    const id = await params.id
+    const { id } = await context.params
     const muxId = parseInt(id)
 
     if (isNaN(muxId)) {
-      return NextResponse.json({ error: "ID inválido" }, { status: 400 })
+      return NextResponse.json({ error: "ID de mux inválido" }, { status: 400 })
     }
 
     const mux = await prisma.mux.findUnique({
@@ -33,11 +32,10 @@ export async function GET(
 // PUT /api/muxes/[id] - Atualizar um MUX
 export async function PUT(
   request: Request,
-  { params }: { params: { id: string | Promise<string> } },
+  context: { params: { id: string } },
 ) {
   try {
-    // Aguardar o valor de params.id antes de usá-lo
-    const id = await params.id
+    const { id } = await context.params
     const muxId = parseInt(id)
 
     if (isNaN(muxId)) {
@@ -77,11 +75,10 @@ export async function PUT(
 // DELETE /api/muxes/[id] - Excluir um MUX
 export async function DELETE(
   request: Request,
-  { params }: { params: { id: string | Promise<string> } },
+  context: { params: { id: string } },
 ) {
   try {
-    // Aguardar o valor de params.id antes de usá-lo
-    const id = await params.id
+    const { id } = await context.params
     const muxId = parseInt(id)
 
     if (isNaN(muxId)) {

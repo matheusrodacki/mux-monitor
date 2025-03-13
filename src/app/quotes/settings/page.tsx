@@ -283,8 +283,8 @@ export default function Settings() {
                     onClick={() => toggleExpand(system.id)}
                   >
                     {expandedSystem === system.id
-                      ? "Ocultar MUXes"
-                      : "Mostrar MUXes"}
+                      ? "Ocultar MUXs"
+                      : "Mostrar MUXs"}
                   </Button>
                   <Button
                     variant="ghost"

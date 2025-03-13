@@ -14,7 +14,6 @@ export interface MuxSystem {
 export interface System {
   id: number
   name: string
-  location: string
   status: Status
   lastRun: string
   ecmgConnections: {

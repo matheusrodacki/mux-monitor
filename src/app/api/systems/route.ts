@@ -27,17 +27,16 @@ export async function GET() {
 export async function POST(request: Request) {
   try {
     const body = await request.json()
-    const { name, location, status } = body
+    const { name, status } = body
 
     // Validação básica
-    if (!name || !location || !status) {
+    if (!name || !status) {
       return NextResponse.json({ error: "Dados incompletos" }, { status: 400 })
     }
 
     const system = await prisma.compressionSystem.create({
       data: {
         name,
-        location,
         status,
       },
     })
