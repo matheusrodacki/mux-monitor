@@ -1,6 +1,5 @@
 "use client"
 import { Divider } from "@/components/Divider"
-import { Input } from "@/components/Input"
 import {
   Sidebar,
   SidebarContent,
@@ -92,16 +91,13 @@ export function AppSidebar({ sidebarData, ...props }: AppSidebarProps) {
           </span>
           <div>
             <span className="block text-sm font-semibold text-gray-900 dark:text-gray-50">
-              Innovex Systems
-            </span>
-            <span className="block text-xs text-gray-900 dark:text-gray-50">
-              Premium Starter Plan
+              TechOps Systems
             </span>
           </div>
         </div>
       </SidebarHeader>
       <SidebarContent>
-        <SidebarGroup>
+        {/* <SidebarGroup>
           <SidebarGroupContent>
             <Input
               type="search"
@@ -109,7 +105,7 @@ export function AppSidebar({ sidebarData, ...props }: AppSidebarProps) {
               className="[&>input]:sm:py-1.5"
             />
           </SidebarGroupContent>
-        </SidebarGroup>
+        </SidebarGroup> */}
         <SidebarGroup className="pt-0">
           <SidebarGroupContent>
             <SidebarMenu className="space-y-1">
